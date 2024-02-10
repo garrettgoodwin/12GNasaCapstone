@@ -8,48 +8,58 @@ public class MainMenuController : MonoBehaviour
     [SerializeField] private Animator transition;
     [SerializeField] private float transitionTime;
 
+
+    //Added a new call to caoroutine to play trantion
+
     public void StartStoryMode()
     {
-        SceneManager.LoadScene("StoryMode");  
+        //SceneManager.LoadScene("StoryMode");  
+        StartCoroutine(StartTransitionToScene("StoryMode"));
     }
 
     public void StartOpeningScene()
     {
-        SceneManager.LoadScene("OpeningScene");
+        //SceneManager.LoadScene("OpeningScene");
+        StartCoroutine(StartTransitionToScene("OpeningScene"));
     }
 
     public void StartTutorial()
     {
-        SceneManager.LoadScene("Tutorial");  
+        //SceneManager.LoadScene("Tutorial");\
+        StartCoroutine(StartTransitionToScene("Tutorial"));
     }
 
     public void StartEndlessMode()
     {
-//        SceneManager.LoadScene("EndlessMode");
-        SceneManager.LoadScene("Main");
+        //SceneManager.LoadScene("Main");
+        StartCoroutine(StartTransitionToScene("Main"));
 
     }
 
     public void OpenOptions()
     {
-        SceneManager.LoadScene("Options");  
+        //SceneManager.LoadScene("Options");
+        StartCoroutine(StartTransitionToScene("Options"));
+
     }
 
     public void ToMainMenu()
     {
-        StartCoroutine(TransitionPlay());
+        //SceneManager.LoadScene("MainMenu");
+        StartCoroutine(StartTransitionToScene("MainMenu"));
     }
 
-    IEnumerator TransitionPlay()
+    IEnumerator StartTransitionToScene(string sceneName)
     {
         transition.SetTrigger("start");
         yield return new WaitForSeconds(transitionTime);
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene(sceneName);
     }
 
 
     public void ToGameScene()
     {
-        SceneManager.LoadScene("Main");
+        //SceneManager.LoadScene("Main");
+        StartCoroutine(StartTransitionToScene("Main"));
     }
 }

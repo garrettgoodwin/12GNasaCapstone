@@ -27,21 +27,27 @@ public class UpgradeManager : MonoBehaviour
 
     void UpdateUpgradeUI()
     {
-        Speed.text = "Speed Level: " + speedLevel;
-        Health.text = "Health Level: " + healthLevel;
-        Shield.text = "Shield Level: " + shieldLevel;
+        speedText.text = "Speed Level: " + speedLevel;
+        healthText.text = "Health Level: " + healthLevel;
+        shieldText.text = "Shield Level: " + shieldLevel;
     }
 
     void UpdateCoinsUI()
     {
-        coinsText.text = "Coins: " + GameManager.coins;
+        int totalAmount = PlayerPrefs.GetInt("PlayerTotalCoinAmount", 0);
+        coinsText.text = "Coins: " + totalAmount;
+
+        //coinsText.text = "Coins: " + GameManager.coins;
     }
 
     public void UpgradeSpeed()
     {
-        if (GameManager.coins >= speedUpgradeCost)
+        int totalAmount = PlayerPrefs.GetInt("PlayerTotalCoinAmount", 0);
+        coinsText.text = "Coins: " + totalAmount;
+
+        if (totalAmount >= speedUpgradeCost)
         {
-            GameManager.coins -= speedUpgradeCost;
+            totalAmount -= speedUpgradeCost;
             speedLevel++;
 
             UpdateUpgradeUI();
@@ -52,13 +58,30 @@ public class UpgradeManager : MonoBehaviour
             // Display a message indicating insufficient coins.
             Debug.Log("Insufficient coins for speed upgrade.");
         }
+
+        //if (GameManager.coins >= speedUpgradeCost)
+        //{
+        //    GameManager.coins -= speedUpgradeCost;
+        //    speedLevel++;
+
+        //    UpdateUpgradeUI();
+        //    UpdateCoinsUI();
+        //}
+        //else
+        //{
+        //    // Display a message indicating insufficient coins.
+        //    Debug.Log("Insufficient coins for speed upgrade.");
+        //}
     }
 
     public void UpgradeHealth()
     {
-        if (GameManager.coins >= healthUpgradeCost)
+        int totalAmount = PlayerPrefs.GetInt("PlayerTotalCoinAmount", 0);
+        coinsText.text = "Coins: " + totalAmount;
+
+        if (totalAmount >= healthUpgradeCost)
         {
-            GameManager.coins -= healthUpgradeCost;
+            totalAmount -= healthUpgradeCost;
             healthLevel++;
             // Apply health upgrade to the ship.
             UpdateUpgradeUI();
@@ -73,10 +96,14 @@ public class UpgradeManager : MonoBehaviour
 
     public void UpgradeShield()
     {
-        if (GameManager.coins >= shieldUpgradeCost)
+        int totalAmount = PlayerPrefs.GetInt("PlayerTotalCoinAmount", 0);
+        coinsText.text = "Coins: " + totalAmount;
+
+        if (totalAmount >= shieldUpgradeCost)
         {
-            GameManager.coins -= shieldUpgradeCost;
+            totalAmount -= shieldUpgradeCost;
             shieldLevel++;
+
             // Apply shield upgrade to the ship.
             UpdateUpgradeUI();
             UpdateCoinsUI();

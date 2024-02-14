@@ -57,8 +57,6 @@ public class Coin : MonoBehaviour
             if(PlayerBank.Instance != null)
             {
                 PlayerBank.Instance.IncreaseBankAmount(valueAmount);
-
-
                 StartCoroutine(testthingy());
                 Instantiate(brokenObjectPrefab, transform.position, transform.rotation);
                 selfDestructor.DestroyOneself();

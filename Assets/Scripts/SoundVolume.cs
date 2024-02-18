@@ -18,7 +18,7 @@ public class SoundControl : MonoBehaviour
     public void HandleSoundLevel(float level)
     {
         audioMixer.SetFloat("SoundEffectsVol", Mathf.Log10(level) * 20); // Convert slider value to dB
-        soundTextUI.text = $"Sound: {level.ToString("P0")}"; // Display as percentage
+        soundTextUI.text = $"Sound Effects: {level.ToString("P0")}"; // Display as percentage
     }
 
     public void SaveSoundSettings()

@@ -17,7 +17,7 @@ public class VolumeControl : MonoBehaviour
 
     public void VolumeSlider(float volume)
     {
-        volumeTextUI.text = volume.ToString("P1"); // P1 format for percentage
+        volumeTextUI.text = $"Volume: {volume.ToString("P0")}";
         AudioListener.volume = volume; // Directly set the volume
     }
 

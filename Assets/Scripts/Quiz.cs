@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class QuizManager : MonoBehaviour
 {
-    public Text questionText;
+    [SerializeField] private TMP_Text questionText;
     public Button[] answerButtons;
     public Text coinText;
 
@@ -136,7 +137,7 @@ public class QuizManager : MonoBehaviour
             int temp = Random.Range(i, questions.Count);
             Swap(ref questions, i, temp);
             Swap(ref options, i, temp);
-            Swap(ref correctAnswers, i, temp);
+            // Swap(ref correctAnswers, i, temp);
         }
     }
 

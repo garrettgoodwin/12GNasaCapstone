@@ -268,6 +268,7 @@ GameObject:
   - component: {fileID: 130068025}
   - component: {fileID: 130068027}
   - component: {fileID: 130068026}
+  - component: {fileID: 130068028}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -289,10 +290,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2049575764}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.096, y: 60.05}
+  m_SizeDelta: {x: 0.09599304, y: -60.005005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &130068026
 MonoBehaviour:
@@ -314,7 +315,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: This is Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -377,7 +378,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -79.06912, y: 44.63646, z: -79.38022, w: -75.88196}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -391,6 +392,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130068024}
   m_CullTransparentMesh: 1
+--- !u!114 &130068028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130068024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bfcc028ddd1f44298bff009e8fb01ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionText: {fileID: 0}
+  answerButtons:
+  - {fileID: 2049575765}
+  - {fileID: 2124578388}
+  - {fileID: 1307498809}
+  - {fileID: 40724574}
+  coinText: {fileID: 0}
 --- !u!1 &315163451
 GameObject:
   m_ObjectHideFlags: 0
@@ -1415,6 +1435,7 @@ GameObject:
   - component: {fileID: 1963615099}
   - component: {fileID: 1963615101}
   - component: {fileID: 1963615100}
+  - component: {fileID: 1963615102}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1524,7 +1545,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -146.31854, y: 0, z: -129.06042, w: -29.263733}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1538,6 +1559,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1963615098}
   m_CullTransparentMesh: 1
+--- !u!114 &1963615102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963615098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bfcc028ddd1f44298bff009e8fb01ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionText: {fileID: 1963615100}
+  answerButtons: []
+  coinText: {fileID: 0}
 --- !u!1 &2049575763
 GameObject:
   m_ObjectHideFlags: 0
@@ -1575,7 +1611,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 60}
+  m_AnchoredPosition: {x: -0.096, y: 60.005}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2049575765
@@ -1681,9 +1717,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2049575763}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec05664e0506f48fa9fa410704dea902, type: 3}
+  m_Script: {fileID: 11500000, guid: 6bfcc028ddd1f44298bff009e8fb01ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  questionText: {fileID: 1963615100}
+  answerButtons:
+  - {fileID: 2049575765}
+  - {fileID: 2124578388}
+  - {fileID: 1307498809}
+  - {fileID: 40724574}
+  coinText: {fileID: 0}
 --- !u!1 &2124578386
 GameObject:
   m_ObjectHideFlags: 0

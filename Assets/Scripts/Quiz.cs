@@ -150,17 +150,26 @@ public class QuizManager : MonoBehaviour
 
     void ShowQuestion()
     {
+        Debug.Log("1");
+
+
+
         if (currentQuestionIndex < questions.Count)
         {
             questionText.text = questions[currentQuestionIndex];
+            Debug.Log("2");
 
             for (int i = 0; i < answerButtons.Length; i++)
             {
+                Debug.Log("3");
+
                 answerButtons[i].GetComponentInChildren<Text>().text = options[currentQuestionIndex][i];
                 // GameObject.Find("B1").GetComponentInChildren<Text>().text = options[currentQuestionIndex][i];
 
-                string buttonName = i < buttonNames.Length ? buttonNames[i] : "B" + i;
-                answerButtons[i].name = buttonName;
+                Debug.Log("4");
+
+                //string buttonName = i < buttonNames.Length ? buttonNames[i] : "B" + i;
+                //answerButtons[i].name = buttonName;
                 Debug.Log("Button Name: " + answerButtons[i].name);
                 Debug.Log("Assigned Text: " + options[currentQuestionIndex][i]);
                 Debug.Log("Question Text: " + questionText.text);

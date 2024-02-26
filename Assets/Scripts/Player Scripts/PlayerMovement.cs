@@ -52,15 +52,15 @@ public class PlayerMovement : MonoBehaviour
 
         if(moveInput.y >  0)
         {
-            leanZRotation = -70f;
+            leanZRotation = 30f;
         }
         else if(moveInput.y < 0)
         {
-            leanZRotation = -110f;
+            leanZRotation = -30f;
         }
         else
         {
-            leanZRotation = -90f;
+            leanZRotation = 0f;
             speedMultiplier = 2f;
         }
 
@@ -73,33 +73,27 @@ public class PlayerMovement : MonoBehaviour
     {
         if(moveInput.y < 0)
         {
-            playerMovementAnims.SetInteger("playerLeanDirection", 1);
-
-            if(!hasStartedLeaning)
-            {
-                playerMovementAnims.SetBool("initialLean", true);
-
-                hasStartedLeaning = true;
-
-                playerMovementAnims.SetBool("initialLean", false);
-            }
+            playerMovementAnims.SetBool("isMThrusting", false);
+            playerMovementAnims.SetBool("isSThrusting", false);
+            playerMovementAnims.SetBool("isPThrusting", true);
         }
         else if(moveInput.y > 0)
         {
-            playerMovementAnims.SetInteger("playerLeanDirection", -1);
-            if (!hasStartedLeaning)
-            {
-                playerMovementAnims.SetBool("initialLean", true);
-
-                hasStartedLeaning = true;
-
-                playerMovementAnims.SetBool("initialLean", false);
-            }
+            playerMovementAnims.SetBool("isMThrusting", false);
+            playerMovementAnims.SetBool("isPThrusting", false);
+            playerMovementAnims.SetBool("isSThrusting", true);
+        }
+        else if(moveInput.x > 0)
+        {
+            playerMovementAnims.SetBool("isSThrusting", false);
+            playerMovementAnims.SetBool("isPThrusting", false);
+            playerMovementAnims.SetBool("isMThrusting", true);
         }
         else
         {
-            playerMovementAnims.SetInteger("playerLeanDirection", 0);
-            hasStartedLeaning = false;
+            playerMovementAnims.SetBool("isSThrusting", false);
+            playerMovementAnims.SetBool("isPThrusting", false);
+            playerMovementAnims.SetBool("isMThrusting", false);
         }
     }
 

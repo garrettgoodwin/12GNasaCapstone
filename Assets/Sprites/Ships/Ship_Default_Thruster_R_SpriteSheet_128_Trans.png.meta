@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b6c6be14d393c1241882d9baa26855ed
+guid: f89b73761853d6f4babf90b05574343b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,33 +81,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -136,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ship_Default_Thruster_R_SpriteSheet_128_0
+      name: Ship_Default_Thruster_R_SpriteSheet_128_Trans_0
       rect:
         serializedVersion: 2
         x: 0
@@ -150,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4ecc64fd0bcb2849aaed4dcf7c194ce
-      internalID: -2008453140
+      spriteID: 198aa6436d06d5d4e8d7689a5c090fc5
+      internalID: -756126520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ship_Default_Thruster_R_SpriteSheet_128_1
+      name: Ship_Default_Thruster_R_SpriteSheet_128_Trans_1
       rect:
         serializedVersion: 2
         x: 128
@@ -171,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1279df3687311a74d8bf231859701897
-      internalID: 789200441
+      spriteID: 79d19f0358e22da4ebaadf0a287cf0b6
+      internalID: -260470070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ship_Default_Thruster_R_SpriteSheet_128_2
+      name: Ship_Default_Thruster_R_SpriteSheet_128_Trans_2
       rect:
         serializedVersion: 2
         x: 256
@@ -192,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f79713d8344a3e42aa60b703f321b26
-      internalID: -1570472497
+      spriteID: 0b1563bfe96b9f94fb04c3acf498cafc
+      internalID: -1345421862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ship_Default_Thruster_R_SpriteSheet_128_3
+      name: Ship_Default_Thruster_R_SpriteSheet_128_Trans_3
       rect:
         serializedVersion: 2
         x: 384
@@ -213,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16648e56a1d2cfc4e9c206a90ef918a0
-      internalID: 1024373361
+      spriteID: e076a870dd21642458318d3cfcd0c9d3
+      internalID: 1459891629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ship_Default_Thruster_R_SpriteSheet_128_4
+      name: Ship_Default_Thruster_R_SpriteSheet_128_Trans_4
       rect:
         serializedVersion: 2
         x: 512
@@ -234,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 242d254d64c159249a29973a85631818
-      internalID: -590990119
+      spriteID: f059e3e997710dd4e8af626f7c79471c
+      internalID: -496785013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ship_Default_Thruster_R_SpriteSheet_128_5
+      name: Ship_Default_Thruster_R_SpriteSheet_128_Trans_5
       rect:
         serializedVersion: 2
         x: 640
@@ -255,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd1c006111d9c8f48998e72e79da527c
-      internalID: 573666369
+      spriteID: 58ff5a233a5dcfd44b677f7143c6cb59
+      internalID: 2083958594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ship_Default_Thruster_R_SpriteSheet_128_6
+      name: Ship_Default_Thruster_R_SpriteSheet_128_Trans_6
       rect:
         serializedVersion: 2
         x: 768
@@ -276,14 +250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e0793fbf283f984a8bb84262b506b84
-      internalID: -1556693014
+      spriteID: 091349e636a006548b9298bee966d7b5
+      internalID: 348464637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ship_Default_Thruster_R_SpriteSheet_128_7
+      name: Ship_Default_Thruster_R_SpriteSheet_128_Trans_7
       rect:
         serializedVersion: 2
         x: 896
@@ -297,14 +271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03fbde69ce7622144b3a2f662b499fc1
-      internalID: -922977078
+      spriteID: 335151a42690a3142911315bc0e143a0
+      internalID: -2026299125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ship_Default_Thruster_R_SpriteSheet_128_8
+      name: Ship_Default_Thruster_R_SpriteSheet_128_Trans_8
       rect:
         serializedVersion: 2
         x: 1024
@@ -318,14 +292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a807f21c564aaff45a75ee7f5aa9238c
-      internalID: -1385857501
+      spriteID: 38b1d323d44897740bfd4729068eb147
+      internalID: -281522486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ship_Default_Thruster_R_SpriteSheet_128_9
+      name: Ship_Default_Thruster_R_SpriteSheet_128_Trans_9
       rect:
         serializedVersion: 2
         x: 1152
@@ -339,14 +313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efa77012ce1335f4ba9bdb55fbe58b67
-      internalID: 643668266
+      spriteID: 3ca705ff3cf65c94db40105ec8c04a4e
+      internalID: -369203495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ship_Default_Thruster_R_SpriteSheet_128_10
+      name: Ship_Default_Thruster_R_SpriteSheet_128_Trans_10
       rect:
         serializedVersion: 2
         x: 1280
@@ -360,14 +334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 300ab76e6b15e9343afaa423d8352ae5
-      internalID: 177933931
+      spriteID: 12986f980fa109144a0314b5695cc0c3
+      internalID: -1235289745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ship_Default_Thruster_R_SpriteSheet_128_11
+      name: Ship_Default_Thruster_R_SpriteSheet_128_Trans_11
       rect:
         serializedVersion: 2
         x: 1408
@@ -381,14 +355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8958403fe47a90e49a61381a9181d946
-      internalID: -121862286
+      spriteID: 195d7fbd50b473747b01c952044e4f78
+      internalID: -1185009981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ship_Default_Thruster_R_SpriteSheet_128_12
+      name: Ship_Default_Thruster_R_SpriteSheet_128_Trans_12
       rect:
         serializedVersion: 2
         x: 1536
@@ -402,14 +376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 488f3af01c0cac747bbefcd694ff7aa8
-      internalID: 2098876999
+      spriteID: 1074b8bd850d63046b31e0478e865874
+      internalID: 2108784595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ship_Default_Thruster_R_SpriteSheet_128_13
+      name: Ship_Default_Thruster_R_SpriteSheet_128_Trans_13
       rect:
         serializedVersion: 2
         x: 1664
@@ -423,14 +397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab726bc8d5efddb448b548e04508b7b2
-      internalID: 87108079
+      spriteID: a878041d80bbadb4cae2c76f9f7df9d7
+      internalID: -2107363921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ship_Default_Thruster_R_SpriteSheet_128_14
+      name: Ship_Default_Thruster_R_SpriteSheet_128_Trans_14
       rect:
         serializedVersion: 2
         x: 1792
@@ -444,14 +418,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e25e383be6844714ea0bd8f993038061
-      internalID: -1741196089
+      spriteID: 6f7fc6163f4c806409e29101a19f8041
+      internalID: 1213983103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ship_Default_Thruster_R_SpriteSheet_128_15
+      name: Ship_Default_Thruster_R_SpriteSheet_128_Trans_15
       rect:
         serializedVersion: 2
         x: 1920
@@ -465,14 +439,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a63dfae234b1566408ce4b2b3ea345c6
-      internalID: -1749211734
+      spriteID: 20e66d14c05499644a1b6cd0e0500697
+      internalID: 1158715004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ship_Default_Thruster_R_SpriteSheet_128_16
+      name: Ship_Default_Thruster_R_SpriteSheet_128_Trans_16
       rect:
         serializedVersion: 2
         x: 2048
@@ -486,14 +460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61676f360e6fd0b4b93969548b7dbe53
-      internalID: 335147617
+      spriteID: bb012eccbf664b04b952e240cedd30b1
+      internalID: -127086961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ship_Default_Thruster_R_SpriteSheet_128_17
+      name: Ship_Default_Thruster_R_SpriteSheet_128_Trans_17
       rect:
         serializedVersion: 2
         x: 2176
@@ -507,14 +481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b595655e73f68343833aa6e37daec53
-      internalID: 129293076
+      spriteID: 1cb6ac94d75851e4f816b3e9bf9fb643
+      internalID: 1545727624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ship_Default_Thruster_R_SpriteSheet_128_18
+      name: Ship_Default_Thruster_R_SpriteSheet_128_Trans_18
       rect:
         serializedVersion: 2
         x: 2304
@@ -528,14 +502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de7038848f65909418db8edfcefe686f
-      internalID: 218529376
+      spriteID: ff068b10d4d214b439d555412866233a
+      internalID: 349882675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ship_Default_Thruster_R_SpriteSheet_128_19
+      name: Ship_Default_Thruster_R_SpriteSheet_128_Trans_19
       rect:
         serializedVersion: 2
         x: 2432
@@ -549,14 +523,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 546c399a9c489904d95a890893e8213e
-      internalID: -242699128
+      spriteID: 6cc2e717be81c6942a0fcbb07f945db8
+      internalID: 1596070096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ship_Default_Thruster_R_SpriteSheet_128_20
+      name: Ship_Default_Thruster_R_SpriteSheet_128_Trans_20
       rect:
         serializedVersion: 2
         x: 2560
@@ -570,8 +544,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb036b22cf12de940ac238b6fa5d06ed
-      internalID: -1573606875
+      spriteID: eee20f2d9ab8e2f48a764cdda3202732
+      internalID: -1366985371
       vertices: []
       indices: 
       edges: []
@@ -587,27 +561,27 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ship_Default_Thruster_R_SpriteSheet_128_0: -2008453140
-      Ship_Default_Thruster_R_SpriteSheet_128_1: 789200441
-      Ship_Default_Thruster_R_SpriteSheet_128_10: 177933931
-      Ship_Default_Thruster_R_SpriteSheet_128_11: -121862286
-      Ship_Default_Thruster_R_SpriteSheet_128_12: 2098876999
-      Ship_Default_Thruster_R_SpriteSheet_128_13: 87108079
-      Ship_Default_Thruster_R_SpriteSheet_128_14: -1741196089
-      Ship_Default_Thruster_R_SpriteSheet_128_15: -1749211734
-      Ship_Default_Thruster_R_SpriteSheet_128_16: 335147617
-      Ship_Default_Thruster_R_SpriteSheet_128_17: 129293076
-      Ship_Default_Thruster_R_SpriteSheet_128_18: 218529376
-      Ship_Default_Thruster_R_SpriteSheet_128_19: -242699128
-      Ship_Default_Thruster_R_SpriteSheet_128_2: -1570472497
-      Ship_Default_Thruster_R_SpriteSheet_128_20: -1573606875
-      Ship_Default_Thruster_R_SpriteSheet_128_3: 1024373361
-      Ship_Default_Thruster_R_SpriteSheet_128_4: -590990119
-      Ship_Default_Thruster_R_SpriteSheet_128_5: 573666369
-      Ship_Default_Thruster_R_SpriteSheet_128_6: -1556693014
-      Ship_Default_Thruster_R_SpriteSheet_128_7: -922977078
-      Ship_Default_Thruster_R_SpriteSheet_128_8: -1385857501
-      Ship_Default_Thruster_R_SpriteSheet_128_9: 643668266
+      Ship_Default_Thruster_R_SpriteSheet_128_Trans_0: -756126520
+      Ship_Default_Thruster_R_SpriteSheet_128_Trans_1: -260470070
+      Ship_Default_Thruster_R_SpriteSheet_128_Trans_10: -1235289745
+      Ship_Default_Thruster_R_SpriteSheet_128_Trans_11: -1185009981
+      Ship_Default_Thruster_R_SpriteSheet_128_Trans_12: 2108784595
+      Ship_Default_Thruster_R_SpriteSheet_128_Trans_13: -2107363921
+      Ship_Default_Thruster_R_SpriteSheet_128_Trans_14: 1213983103
+      Ship_Default_Thruster_R_SpriteSheet_128_Trans_15: 1158715004
+      Ship_Default_Thruster_R_SpriteSheet_128_Trans_16: -127086961
+      Ship_Default_Thruster_R_SpriteSheet_128_Trans_17: 1545727624
+      Ship_Default_Thruster_R_SpriteSheet_128_Trans_18: 349882675
+      Ship_Default_Thruster_R_SpriteSheet_128_Trans_19: 1596070096
+      Ship_Default_Thruster_R_SpriteSheet_128_Trans_2: -1345421862
+      Ship_Default_Thruster_R_SpriteSheet_128_Trans_20: -1366985371
+      Ship_Default_Thruster_R_SpriteSheet_128_Trans_3: 1459891629
+      Ship_Default_Thruster_R_SpriteSheet_128_Trans_4: -496785013
+      Ship_Default_Thruster_R_SpriteSheet_128_Trans_5: 2083958594
+      Ship_Default_Thruster_R_SpriteSheet_128_Trans_6: 348464637
+      Ship_Default_Thruster_R_SpriteSheet_128_Trans_7: -2026299125
+      Ship_Default_Thruster_R_SpriteSheet_128_Trans_8: -281522486
+      Ship_Default_Thruster_R_SpriteSheet_128_Trans_9: -369203495
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

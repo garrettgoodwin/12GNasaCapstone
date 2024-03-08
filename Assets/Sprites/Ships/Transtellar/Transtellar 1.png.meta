@@ -1,0 +1,2270 @@
+fileFormatVersion: 2
+guid: bbdc2935d46f946fe99b1927435e6fbf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Transtellar 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f66c14d5691949ac983d90286353ea1
+      internalID: 1074724176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_1
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 10400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5173fb8a397484292f45ec15c46e5d
+      internalID: -640300241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_2
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 10400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0834582d02454c6d9d437cb612a34a6
+      internalID: 1194026582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_3
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 10400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d92d4352428a46aeb9884a58a539d41
+      internalID: 662033671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_4
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 10400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa8ad87741504fcd8579b4e12994237
+      internalID: 736151554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_5
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 10400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c1939b1393a4e578dd65d65891457e
+      internalID: -1279494851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_6
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 10400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59938a21bbb2406ea912a4f4db844c2
+      internalID: 1067844671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b491af2e93045bf8f084b50911f65c
+      internalID: 1607077082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_8
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 9600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf7de692e7034e119b70da636edcd77
+      internalID: -511103879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_9
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 9600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e560ff81f25642b191078850236a8ab
+      internalID: 1301821606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_10
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 9600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5cbc0272abe430aa0d3fde28f2edbd
+      internalID: -1130643242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_11
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 9600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aceec0a8c62f45338996e23bf296ee1
+      internalID: 1559738751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_12
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 9600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b28d6932235451eb5a56d3288d3cc4
+      internalID: -1754101441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_13
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 9600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69c0b02b2f7742ee8faf33c7edb872e
+      internalID: 2055205324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8d0bf13e350416d81dc1fc1398e6bd
+      internalID: 650934521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 8800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04cbc70b0a8004825ad70aee6bdcf319
+      internalID: 1215327543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_16
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 8800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ff979ce6f1c4aad8bdc79fc973c8f9
+      internalID: -255000288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_17
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 8800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f45f2357d8414ea590e09041a890307
+      internalID: 716686011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_18
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 8800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34b11a3971aa459dbc02bb4b4994fbd
+      internalID: -247024142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_19
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 8800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936326c88d27d458ca403dbd3ba66e44
+      internalID: 541711106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_20
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 8800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c1dff4854fe40b793f3dd712e55ce6
+      internalID: -1159011092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8000
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ef43d540f744587a91464b18c9b9a0
+      internalID: 501948243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_22
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 8000
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fa2e548532d4e0f84fa44378c9e641
+      internalID: -441348377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_23
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 8000
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd5f504ef2954f3993215cf19804c22
+      internalID: 936347442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_24
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 8000
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6166ce8ab03414921ad6762c91870761
+      internalID: -11369367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_25
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 8000
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e891e45c04c43879845a00ac4d5caa
+      internalID: 22884449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_26
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 8000
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad47e3b9ec92140e4a5b888b8a8bd71d
+      internalID: 1536897856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_27
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 8000
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6321bc5da40b943f5a2cdc871a0b1d36
+      internalID: -1288918804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7200
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf2696aba49d49ac803472ce5a3373e
+      internalID: 791505298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_29
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 7200
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757ad860b803248b4bd17a2b130f9dee
+      internalID: -611258763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_30
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 7200
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee578f9cc8984b3bb3243e33520cf7d
+      internalID: -1049892171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_31
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 7200
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0591d46c29074f7eb7051b24e6a26d0
+      internalID: 973691585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_32
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 7200
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9247d1b910c34e39ad5e7f9bee8e223
+      internalID: 2055339411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_33
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 7200
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afea90dfc62ad4951866b38bbb70da3d
+      internalID: -514066912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_34
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 7200
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5648b326fb0a44bf9b37acd38cfb53cc
+      internalID: -581855877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbcfe3f431614cfdada28138b71348c
+      internalID: -1750796152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_36
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 6400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff163372c649c4bfd9a6af940d15fef4
+      internalID: -1438794778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_37
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 6400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0949835afdbb4f6ab145085e10d4e9f
+      internalID: -1081756339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_38
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 6400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776cd891d59df47cf8e59db90a6f4e62
+      internalID: -1889957059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_39
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 6400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d125de5726f4384b9820bfbb0b791f
+      internalID: 2075280718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_40
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 6400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8fb04ebba62499b8c1d860d4bf43d1
+      internalID: 355041351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_41
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 6400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595536678be5446308899de21e52423b
+      internalID: -1939470608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2b9fc617f25464cb0875a556bfdf34
+      internalID: 273437095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_43
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 5600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec9d7a7338af4feeb4e8e3da24eb0e5
+      internalID: 552417780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_44
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 5600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89babe87bf5324213ab0ead6346a9020
+      internalID: 261787703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_45
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 5600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8a3ffedb456475084ec37a8fe98d51
+      internalID: 291387257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_46
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 5600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8e166c133e842e09a153d3f8a7820a
+      internalID: 1212540559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_47
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 5600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fdc3914462d4f168a2c16347fa6c73
+      internalID: 727775506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_48
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 5600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1773af7ae22624967aebeb7cd76f9510
+      internalID: 1955121133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34c6872f08ec41d19c7357b89f6db57
+      internalID: -1172632794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_50
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 4800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391107e9948c94152a4edc1f45fccdb7
+      internalID: -722655392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_51
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 4800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c856048588214f7d8275edbbdd354e2
+      internalID: 1793547476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_52
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 4800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ecae849357ec41c685059b7d1da08fe
+      internalID: 54763236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_53
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 4800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c89a675ecbf438898a15efc54c17e4
+      internalID: -10771910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_54
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379f5f2f1861347beb355090f34bb9bb
+      internalID: -2095327265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_55
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 4800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f80f56022b3143c391b953b8b63296a
+      internalID: 727920118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4000
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73b7c8bf628f4d8a91fb85b436ade3d
+      internalID: -1716275254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_57
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 4000
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6ab77f46f784d418cf7d386a07c21b
+      internalID: -179904428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_58
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 4000
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3dda71a0a7641f4a4d1983abebd0d7
+      internalID: -255428132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_59
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 4000
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8654d5529100549588cebca307574c4b
+      internalID: -1123005727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_60
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 4000
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8434cabee464da8ad8ec340bc14911
+      internalID: -1853776166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_61
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4000
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e196e3fe76e1847648cf003ba8d73fc5
+      internalID: 594987615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_62
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 4000
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee99bd06255bc45d484c801a4d10c709
+      internalID: -509593116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ae24de235334bae9c9a76c2018d16f
+      internalID: 1247415499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_64
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3200
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d88a4236a2844f48e24922819534e5
+      internalID: 1111339768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_65
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3200
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39aa1afd633b41dc958e3507bba222d
+      internalID: -404286732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_66
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3200
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940b35ed4974c40e0ba1765c593eb91c
+      internalID: -1343527316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_67
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3200
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb6215eba79048bdae65aa0c551ddab
+      internalID: 466483987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_68
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3200
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b18d0b6bce744d75ac66b9b59ab1154
+      internalID: 1852884177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_69
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 3200
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308329dd37483402eb7338944328b291
+      internalID: 1857899014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a35f4ddc42e4395bd95486f6d412fd
+      internalID: -1911566182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_71
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89dd0c9382d8c4934834a18504616dad
+      internalID: -947812988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_72
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412a409673907458fb21da513711bc56
+      internalID: 1602649339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_73
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd72311470c14928b616be3df256298
+      internalID: -291208273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_74
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24412f01ec6f4449b93661eb28099ea7
+      internalID: 246721169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_75
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b7ba6aa25e443d08d8f39b14390cc3
+      internalID: -1887088807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_76
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d467e558be7244239588fab416cdb13
+      internalID: -2126016181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e40fc06a73824bf187bd63a1cc1b09e
+      internalID: 143566784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_78
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27d7876cb56a4251b3eee93d9713a59
+      internalID: -666312729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_79
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63dcf336356294c2a8d6b4a58cec948c
+      internalID: -435876241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_80
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1086651187cd84f58930f1a8532b3731
+      internalID: 770299872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_81
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967a83af6cdc54533a97239f88d209ba
+      internalID: 48472396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_82
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4971d690f5ec14ddc9ec892676a28e12
+      internalID: 1435518400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_83
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cde1f3f6f6094e33b612eb8dfa69f23
+      internalID: -455646175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034483d79d260468a9a73486fb7b151f
+      internalID: -238996868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_85
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b5129191592404da941e36373c91a6
+      internalID: 1959875134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_86
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e243667b480645a0b4089914196cfc9
+      internalID: 51594109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_87
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4a25fb0543d4f1e853ac2e3436a03e
+      internalID: 511842814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_88
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82329569fc731400090ecf9bc9fec609
+      internalID: -2042906477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_89
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e786f2c3b084e15b38086d37f86fa1
+      internalID: -43917450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_90
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde60ee10ca244d1dba4a6d7f06556c9
+      internalID: -857035955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b6526e65a9e45df882aa1df7b80779
+      internalID: 1293000296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_92
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a52a420c1112493896aa3c1119d524f
+      internalID: -853772907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_93
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1e62fb6bf3040299c398d9653a226f
+      internalID: -1345911228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_94
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b686c67f8ca840339888c9ba8b4003b
+      internalID: -410128069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_95
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570f5932411184c5eb81679e5a1e9cde
+      internalID: -490305098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_96
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820c7bbec2dd844099fe5823fdf51924
+      internalID: 1886194614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transtellar 1_97
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcea2c489229431eafff867f7dc8f3f
+      internalID: 493022091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Transtellar 1_0: 1074724176
+      Transtellar 1_1: -640300241
+      Transtellar 1_10: -1130643242
+      Transtellar 1_11: 1559738751
+      Transtellar 1_12: -1754101441
+      Transtellar 1_13: 2055205324
+      Transtellar 1_14: 650934521
+      Transtellar 1_15: 1215327543
+      Transtellar 1_16: -255000288
+      Transtellar 1_17: 716686011
+      Transtellar 1_18: -247024142
+      Transtellar 1_19: 541711106
+      Transtellar 1_2: 1194026582
+      Transtellar 1_20: -1159011092
+      Transtellar 1_21: 501948243
+      Transtellar 1_22: -441348377
+      Transtellar 1_23: 936347442
+      Transtellar 1_24: -11369367
+      Transtellar 1_25: 22884449
+      Transtellar 1_26: 1536897856
+      Transtellar 1_27: -1288918804
+      Transtellar 1_28: 791505298
+      Transtellar 1_29: -611258763
+      Transtellar 1_3: 662033671
+      Transtellar 1_30: -1049892171
+      Transtellar 1_31: 973691585
+      Transtellar 1_32: 2055339411
+      Transtellar 1_33: -514066912
+      Transtellar 1_34: -581855877
+      Transtellar 1_35: -1750796152
+      Transtellar 1_36: -1438794778
+      Transtellar 1_37: -1081756339
+      Transtellar 1_38: -1889957059
+      Transtellar 1_39: 2075280718
+      Transtellar 1_4: 736151554
+      Transtellar 1_40: 355041351
+      Transtellar 1_41: -1939470608
+      Transtellar 1_42: 273437095
+      Transtellar 1_43: 552417780
+      Transtellar 1_44: 261787703
+      Transtellar 1_45: 291387257
+      Transtellar 1_46: 1212540559
+      Transtellar 1_47: 727775506
+      Transtellar 1_48: 1955121133
+      Transtellar 1_49: -1172632794
+      Transtellar 1_5: -1279494851
+      Transtellar 1_50: -722655392
+      Transtellar 1_51: 1793547476
+      Transtellar 1_52: 54763236
+      Transtellar 1_53: -10771910
+      Transtellar 1_54: -2095327265
+      Transtellar 1_55: 727920118
+      Transtellar 1_56: -1716275254
+      Transtellar 1_57: -179904428
+      Transtellar 1_58: -255428132
+      Transtellar 1_59: -1123005727
+      Transtellar 1_6: 1067844671
+      Transtellar 1_60: -1853776166
+      Transtellar 1_61: 594987615
+      Transtellar 1_62: -509593116
+      Transtellar 1_63: 1247415499
+      Transtellar 1_64: 1111339768
+      Transtellar 1_65: -404286732
+      Transtellar 1_66: -1343527316
+      Transtellar 1_67: 466483987
+      Transtellar 1_68: 1852884177
+      Transtellar 1_69: 1857899014
+      Transtellar 1_7: 1607077082
+      Transtellar 1_70: -1911566182
+      Transtellar 1_71: -947812988
+      Transtellar 1_72: 1602649339
+      Transtellar 1_73: -291208273
+      Transtellar 1_74: 246721169
+      Transtellar 1_75: -1887088807
+      Transtellar 1_76: -2126016181
+      Transtellar 1_77: 143566784
+      Transtellar 1_78: -666312729
+      Transtellar 1_79: -435876241
+      Transtellar 1_8: -511103879
+      Transtellar 1_80: 770299872
+      Transtellar 1_81: 48472396
+      Transtellar 1_82: 1435518400
+      Transtellar 1_83: -455646175
+      Transtellar 1_84: -238996868
+      Transtellar 1_85: 1959875134
+      Transtellar 1_86: 51594109
+      Transtellar 1_87: 511842814
+      Transtellar 1_88: -2042906477
+      Transtellar 1_89: -43917450
+      Transtellar 1_9: 1301821606
+      Transtellar 1_90: -857035955
+      Transtellar 1_91: 1293000296
+      Transtellar 1_92: -853772907
+      Transtellar 1_93: -1345911228
+      Transtellar 1_94: -410128069
+      Transtellar 1_95: -490305098
+      Transtellar 1_96: 1886194614
+      Transtellar 1_97: 493022091
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

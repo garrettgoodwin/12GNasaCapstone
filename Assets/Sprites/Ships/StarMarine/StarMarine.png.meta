@@ -1,0 +1,1500 @@
+fileFormatVersion: 2
+guid: 8b6484310e9e3458ebfb44a9a9080f9b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StarMarine_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f37b4b7c3b9740bc98610c86a50b73d
+      internalID: 1736459688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_1
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 6400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d496ce573d44490bd6f9a14ebd4fcb
+      internalID: -347608091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_2
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 6400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7092e714a75a2446c81d14a237530909
+      internalID: 965611614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_3
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 6400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd64ff24fe4a4000b8bdbb43059d48e
+      internalID: -1940567893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_4
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 6400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455d8090b72cf4f1d90bcc6d120c4d7f
+      internalID: -459522697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_5
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 6400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02dc186acd7294339a0c2f0d402094e2
+      internalID: 1026861605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_6
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 6400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69c0c08bb31f44e0aaa8a18cf800a1b
+      internalID: -1907085116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af1006a2674244c5ae05a1e5105edaa
+      internalID: -543726705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_8
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 5600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da18f0d888e4f454eae5cfbf2616d1d8
+      internalID: -1837799067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_9
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 5600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a1b21366ffc451ab556029645a0895
+      internalID: -1179857634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_10
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 5600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99969cfdb11842c6a082aaab0b0fd54
+      internalID: 223003195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_11
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 5600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6eb202faf4664355965769b8615d60d
+      internalID: 1359447644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_12
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 5600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f97514e3d9f848368ea124daea4a931
+      internalID: -2078412064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_13
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 5600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfc437ccb0bb4195b6557e309565263
+      internalID: -841677156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089195717a2514add8017c4e6ecb54ac
+      internalID: -1056037224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 4800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41f861b8413b4f2e8e90056e52669b8
+      internalID: 940547036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_16
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 4800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e2636a48e5a444b9f4a572c988b79e
+      internalID: 1823237972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_17
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 4800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006e33663ddcd4691a6766fc92c56c53
+      internalID: -1383981897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_18
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 4800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4e0f5f186ed48548ca05092ac1315f
+      internalID: -274052969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_19
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba1c0d86107b48f991cc3d9a7cf26f4
+      internalID: 1013179441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_20
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 4800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1e0673e3c094fa7a11ca3a643ea746
+      internalID: 400911293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4000
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea503ef32a0946679dc19d7a513e52a
+      internalID: -837762965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_22
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 4000
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddb36058eb4043ac81d735062e1dbe1
+      internalID: -109799106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_23
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 4000
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e9109c3cfda46baa2e90d32971a7c4
+      internalID: -453260873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_24
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 4000
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d318d1b77483c4cb89e123bf08295a3e
+      internalID: 356853702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_25
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 4000
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3ce4afe19c6496b9d5f9796b31de04
+      internalID: 910640399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_26
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4000
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f67b739d1e10460aabcfae106393bb5
+      internalID: -797883869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_27
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 4000
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72476fe157d74ed5a07159d497c0069
+      internalID: 2002123517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f851d808a2cf742089871c0820217dce
+      internalID: 1134853867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_29
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3200
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8676072110c54c74934a51a96c6bfbf
+      internalID: 172625667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_30
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3200
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e491b0b77b64a60a371bf2b1a64d40
+      internalID: 532278832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_31
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3200
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0e2ab6db412408d939ef0c39298484
+      internalID: 1927316497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_32
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3200
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64751e90904b74dcb9b2f7a71cca3792
+      internalID: 2073144321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_33
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3200
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d5e3acd80d54a68b30673d66b80b19
+      internalID: 1073874414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_34
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 3200
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afcaaf8ba52848d084363564ea970e9
+      internalID: -1739510894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5192032699d4b49b517248a01b323c
+      internalID: -49736179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_36
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d240b298c5f2e47838b76db47bcb55a0
+      internalID: -913460003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_37
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0dce0a73a7a4aa494485868416bff6
+      internalID: 1084880445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_38
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb21545581e6c456d8c3c4b42e463f9b
+      internalID: 1186485837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_39
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0e1f08904434e92b24093521b4fedf
+      internalID: 2146686082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_40
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1bee229298244e7a0c14ca893cf85d
+      internalID: 1593312942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_41
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2400
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dfa31feabea4d80a64ce3254f411d7
+      internalID: 1084562284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5929cf33cb9734027b20c834e85971c6
+      internalID: 1794716264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_43
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920c4eeb5b80e4a06b1e29ca233789c8
+      internalID: -2049791956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_44
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c6f150a609f4795bb10b81ac78ac7c
+      internalID: 325006153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_45
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bc9385222934d26814727e38ec51bc
+      internalID: -2129530165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_46
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e23ea9770df44d28169212936c480e
+      internalID: 269781457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_47
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0179ff6e5cee84ece8e57d2c6788e1dc
+      internalID: 1124725605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_48
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1600
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38cbde1d4fdb4789b970501b7720be5
+      internalID: 254689954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567ba7008f0174f5ea39e4f59f6254db
+      internalID: 225833430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_50
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f720540924e948eb81caf4447b2a394
+      internalID: -1249117149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_51
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be2bc13041704e438d2079a02e4f5ab
+      internalID: 1850773618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_52
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d509d1f0caa734a75ae57b2570913f93
+      internalID: -1988146397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_53
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ca045f0dd0f4c52a50cccab2db93e6
+      internalID: 1796997172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_54
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5cac8a9b996465eb891919c17bde2c
+      internalID: -1343038585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_55
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 800
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95065d64af325483783e86d77e5e270f
+      internalID: -307878781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31da346db3a4f4374897f2317e0260d4
+      internalID: -357592929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_57
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9ff591ca4224b63909663f60667a65
+      internalID: 1070028877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_58
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c15c2f8f3c4540b4bc8c11ca5eb6857
+      internalID: 792841839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_59
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31889a0271d794da4827131d322dfc74
+      internalID: 964244279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_60
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33872846b7f54786abb363413864a93
+      internalID: -706216890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_61
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf2f310047884d558b86bb302dfa5a4
+      internalID: 1912136197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StarMarine_62
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 960
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c6620f80d884e0bbf721a7bd2d1172
+      internalID: -1487374147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      StarMarine_0: 1736459688
+      StarMarine_1: -347608091
+      StarMarine_10: 223003195
+      StarMarine_11: 1359447644
+      StarMarine_12: -2078412064
+      StarMarine_13: -841677156
+      StarMarine_14: -1056037224
+      StarMarine_15: 940547036
+      StarMarine_16: 1823237972
+      StarMarine_17: -1383981897
+      StarMarine_18: -274052969
+      StarMarine_19: 1013179441
+      StarMarine_2: 965611614
+      StarMarine_20: 400911293
+      StarMarine_21: -837762965
+      StarMarine_22: -109799106
+      StarMarine_23: -453260873
+      StarMarine_24: 356853702
+      StarMarine_25: 910640399
+      StarMarine_26: -797883869
+      StarMarine_27: 2002123517
+      StarMarine_28: 1134853867
+      StarMarine_29: 172625667
+      StarMarine_3: -1940567893
+      StarMarine_30: 532278832
+      StarMarine_31: 1927316497
+      StarMarine_32: 2073144321
+      StarMarine_33: 1073874414
+      StarMarine_34: -1739510894
+      StarMarine_35: -49736179
+      StarMarine_36: -913460003
+      StarMarine_37: 1084880445
+      StarMarine_38: 1186485837
+      StarMarine_39: 2146686082
+      StarMarine_4: -459522697
+      StarMarine_40: 1593312942
+      StarMarine_41: 1084562284
+      StarMarine_42: 1794716264
+      StarMarine_43: -2049791956
+      StarMarine_44: 325006153
+      StarMarine_45: -2129530165
+      StarMarine_46: 269781457
+      StarMarine_47: 1124725605
+      StarMarine_48: 254689954
+      StarMarine_49: 225833430
+      StarMarine_5: 1026861605
+      StarMarine_50: -1249117149
+      StarMarine_51: 1850773618
+      StarMarine_52: -1988146397
+      StarMarine_53: 1796997172
+      StarMarine_54: -1343038585
+      StarMarine_55: -307878781
+      StarMarine_56: -357592929
+      StarMarine_57: 1070028877
+      StarMarine_58: 792841839
+      StarMarine_59: 964244279
+      StarMarine_6: -1907085116
+      StarMarine_60: -706216890
+      StarMarine_61: 1912136197
+      StarMarine_62: -1487374147
+      StarMarine_7: -543726705
+      StarMarine_8: -1837799067
+      StarMarine_9: -1179857634
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

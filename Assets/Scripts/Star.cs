@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class Star : MonoBehaviour
 {
-
-
     [Header("Statistics")]
     [SerializeField] private float maxSpeed;
     [SerializeField] private float minSpeed;
@@ -18,17 +18,25 @@ public class Star : MonoBehaviour
         Invoke("DestroySelf", lifetime);
     }
 
-
     private void Update()
     {
-       // float currentSpeed = speed + (Time.time / 60f) * 1.1f;
-
-        //if(currentSpeed > 2f)
-        //{
-        //    currentSpeed = 2f;
-        //}
         transform.Translate(Vector2.right * -speed* Time.deltaTime);
     }
+
+    //private IEnumerator SlowDownStar(float duration)
+    //{
+    //    float timeElapsed = 0;
+    //    float startSpeed = speed; 
+
+    //    while (timeElapsed < duration)
+    //    {
+    //        timeElapsed += Time.deltaTime;
+    //        speed = Mathf.Lerp(startSpeed, 0, timeElapsed / duration);
+    //        yield return null;
+    //    }
+
+    //    speed = 0;
+    //}
 
     private void DestroySelf()
     {

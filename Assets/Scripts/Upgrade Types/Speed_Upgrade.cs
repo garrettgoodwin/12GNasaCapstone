@@ -4,14 +4,11 @@ using UnityEngine;
 
 public class Speed_Upgrade : MonoBehaviour
 {
-
-    public static int speedLevel = gameManager.speedLevel;
-
-    public int speedUpgradeCost = 50;
+    //public int speedUpgradeCost = 50;
     void Start()
     // Start is called before the first frame updatevoid Start()
     {
-        currentSpeed = speedLevel+10;
+        //currentSpeed = speedLevel+10;
     }
 
     void Update()
@@ -26,7 +23,7 @@ public class Speed_Upgrade : MonoBehaviour
     public void OnTextClick()
     {
         // Increase speed when the TextMeshPro Text is clicked
-        currentSpeed = increasedSpeed;
+        //currentSpeed = increasedSpeed;
     }
 
     void OnMouseDown()

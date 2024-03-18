@@ -27,6 +27,8 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private ScoreManager scoreRef;
     [SerializeField] private Image damageEffect;
 
+    private bool hasDied = false;
+
     private void Start()
     {
         //Initialize Health
@@ -113,8 +115,11 @@ public class PlayerHealth : MonoBehaviour
 
     public void Die()
     {
-        //Doesnt technically need to happen if the scene is just reset
+        if (hasDied) return;
+
+        hasDied = true;
         //selfDestructor.DestroyOneself();
+
         OnPlayerDeath?.Invoke();
 
         int highscore = PlayerPrefs.GetInt("HighScore", 0);

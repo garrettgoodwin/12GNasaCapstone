@@ -32,16 +32,6 @@ public class ScoreManager : MonoBehaviour
             StartCoroutine(UpdateScore());
             hasStarted = true;
         }
-
-
-        //if(!hasStarted)
-        //{
-        //    if(Input.GetKeyDown(KeyCode.Mouse0))
-        //    {
-        //        hasStarted = true;
-        //    }
-        //}
-
     }
 
     IEnumerator UpdateScore()

@@ -59,7 +59,6 @@ public class MainMenuController : MonoBehaviour
 
     public void ToGameScene()
     {
-        //SceneManager.LoadScene("Main");
         StartCoroutine(StartTransitionToScene("Main"));
     }
 }

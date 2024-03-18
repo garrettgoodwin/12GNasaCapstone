@@ -6,13 +6,11 @@ using UnityEngine.UI;
 
 public class CrosshairManager : MonoBehaviour
 {
-    public Image crosshairImage;
     public SpriteRenderer crosshairSpriteRenderer;
 
     private void Start()
     {
         Cursor.visible = false;
-       // SetCrosshair();
     }
 
     private void Update()
@@ -28,10 +26,4 @@ public class CrosshairManager : MonoBehaviour
 
         crosshairSpriteRenderer.transform.position = crosshairPos;
     }
-
-    //private void SetCrosshair()
-    //{
-    //    crosshairImage.sprite = crosshairSprite;
-    //}
-
 }

@@ -17,15 +17,7 @@ public class HazardSpawner : MonoBehaviour
 
     private bool initialSSpawnDelayCompleted = false;
 
-
     public bool isStarSpawner = false;
-
-
-    private void Start()
-    {
-        
-    }
-
 
     void Update()
     {
@@ -68,4 +60,30 @@ public class HazardSpawner : MonoBehaviour
         yield return new WaitForSeconds(delay);
         initialSSpawnDelayCompleted = true;
     }
+
+    public void SlowDownAndStop()
+    {
+      //  StartCoroutine(SlowDownCoroutine());
+        initialSpawnTime = 999999;
+
+    }
+
+    //IEnumerator SlowDownCoroutine()
+    //{
+    //    //float currentSpawnTime = initialSpawnTime;
+    //    //float timeToDecrease = 1f;
+    //    //float elapsedTime = 0f;
+
+    //    //while (elapsedTime < currentSpawnTime)
+    //    //{
+    //    //    elapsedTime += Time.deltaTime;
+    //    //    initialSpawnTime = Mathf.Lerp(currentSpawnTime, 0, elapsedTime / timeToDecrease);
+    //    //    yield return null;
+
+    //    //}
+
+    //    initialSpawnTime = 10000;
+    //}
+
+
 }

@@ -16,7 +16,7 @@ To get started with [Name of the Game], follow these steps:
 3. Navigate to the Assets/Scenes folder and open the Main Menu scene.  
 4. Press the play button to start the game in the Unity Editor.  
 
-Alternatively, you check out the web game on Nasa's website [here](https://www.example.com) to play without needing Unity.  
+Alternatively, you check out the web game on Nasa's website [here](https://goodwingames.itch.io/testwebglbuild) to play without needing Unity.  
 
 ### Documents📁
 

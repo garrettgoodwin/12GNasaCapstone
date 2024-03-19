@@ -3,17 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using static UnityEditor.Progress;
 
 public class QuizManager : MonoBehaviour
 {
     [SerializeField] private TMP_Text questionText;
-    public Button[] answerButtons;
-    public Text coinText;
+    [SerializeField] private Button[] answerButtons;
+    [SerializeField] private TMP_Text coinText;
 
     private List<int> usedQuestions = new List<int>();
     private List<int> usedOptions = new List<int>();
     private int currentQuestionIndex = 0;
     private int coins = 0;
+
+    // Add your questions, options, and correctAnswers lists here
 
     // Define the updated questions and their corresponding correct answers
     private List<string> questions = new List<string>
@@ -120,9 +123,10 @@ public class QuizManager : MonoBehaviour
         new List<string> { "NASA’s official website", "Psyche Mission's Twitter account", "https://psyche.asu.edu/mission/the-team/full-psyche-team/", "Your school's library" },
     };
 
-    private int[] correctAnswers = {
-        1, 3, 2, 2, 1, 2, 2, 3, 2, 2, 1, 3, 2, 1, 2, 3, 2, 3, 2, 2, 3, 2, 3, 2, 1, 2, 1, 1, 2, 2, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 3, 3, 2, 3, 2, 2, 3, 2
-    };
+    private List<int> correctAnswers = new List<int>
+{
+    1, 3, 2, 2, 1, 2, 2, 3, 2, 2, 1, 3, 2, 1, 2, 3, 2, 3, 2, 2, 3, 2, 3, 2, 1, 2, 1, 1, 2, 2, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 3, 3, 2, 3, 2, 2, 3, 2
+};
 
     void Start()
     {
@@ -137,7 +141,7 @@ public class QuizManager : MonoBehaviour
             int temp = Random.Range(i, questions.Count);
             Swap(ref questions, i, temp);
             Swap(ref options, i, temp);
-            // Swap(ref correctAnswers, i, temp);
+            Swap(ref correctAnswers, i, temp);
         }
     }
 
@@ -150,41 +154,22 @@ public class QuizManager : MonoBehaviour
 
     void ShowQuestion()
     {
-        Debug.Log("1");
-
-
-
         if (currentQuestionIndex < questions.Count)
         {
             questionText.text = questions[currentQuestionIndex];
-            Debug.Log("2");
-
             for (int i = 0; i < answerButtons.Length; i++)
             {
-                Debug.Log("3");
-
-                answerButtons[i].GetComponentInChildren<Text>().text = options[currentQuestionIndex][i];
-                // GameObject.Find("B1").GetComponentInChildren<Text>().text = options[currentQuestionIndex][i];
-
-                Debug.Log("4");
-
-                //string buttonName = i < buttonNames.Length ? buttonNames[i] : "B" + i;
-                //answerButtons[i].name = buttonName;
-                Debug.Log("Button Name: " + answerButtons[i].name);
-                Debug.Log("Assigned Text: " + options[currentQuestionIndex][i]);
-                Debug.Log("Question Text: " + questionText.text);
-
-
+                answerButtons[i].GetComponentInChildren<TMP_Text>().text = options[currentQuestionIndex][i];
                 int currentIndex = currentQuestionIndex;
-                int buttonIndex = i;
                 answerButtons[i].onClick.RemoveAllListeners();
-                answerButtons[i].onClick.AddListener(() => CheckAnswer(currentIndex, buttonIndex));
+                answerButtons[i].onClick.AddListener(() => CheckAnswer(currentIndex, i));
             }
         }
         else
         {
-            // Quiz is complete
+            // Handle quiz completion
             Debug.Log("Quiz Complete! Total Coins: " + coins);
+            // Optionally, display a message to the player about the quiz completion
         }
     }
 
@@ -193,9 +178,20 @@ public class QuizManager : MonoBehaviour
         if (selectedOption == correctAnswers[questionIndex])
         {
             coins += 1000;
+            // Optionally, update coinText to display the new coin total
+            coinText.text = "Coins: " + coins;
         }
 
         currentQuestionIndex++;
-        ShowQuestion();
+        if (currentQuestionIndex < questions.Count)
+        {
+            ShowQuestion();
+        }
+        else
+        {
+            // Handle quiz completion
+            Debug.Log("Quiz Complete! Total Coins: " + coins);
+            // Optionally, display a message to the player about the quiz completion
+        }
     }
 }

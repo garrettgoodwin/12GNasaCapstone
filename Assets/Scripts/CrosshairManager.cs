@@ -18,7 +18,7 @@ public class CrosshairManager : MonoBehaviour
         FollowMouse();
     }
 
-    private void FollowMouse()
+    private void FollowMouse() 
     {
         Vector2 mousePos = Input.mousePosition;
 

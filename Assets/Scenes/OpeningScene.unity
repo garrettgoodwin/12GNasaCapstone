@@ -2752,7 +2752,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textToBlink: {fileID: 1880046015}
   blinkInterval: 0.35
-  sceneController: {fileID: 208166663}
 --- !u!1 &1212468189
 GameObject:
   m_ObjectHideFlags: 0
@@ -5121,6 +5120,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1323101813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2047719052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2047719054}
+  - component: {fileID: 2047719053}
+  m_Layer: 0
+  m_Name: KeyPressCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2047719053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047719052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cca878499e9cc674481d0098b3154b66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMenuController: {fileID: 208166663}
+--- !u!4 &2047719054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047719052}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1980.6038, y: 1570.7748, z: -7.9814606}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2058608969
 GameObject:
   m_ObjectHideFlags: 0
@@ -5385,3 +5429,4 @@ SceneRoots:
   - {fileID: 543263773399757809}
   - {fileID: 1177063403}
   - {fileID: 966010840}
+  - {fileID: 2047719054}

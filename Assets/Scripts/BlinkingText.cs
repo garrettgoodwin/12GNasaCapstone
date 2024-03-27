@@ -6,37 +6,50 @@ using UnityEngine.SceneManagement;
 
 public class BlinkingText : MonoBehaviour
 {
-
     [SerializeField] private GameObject textToBlink;
-    [SerializeField] private float blinkInterval;
+    [SerializeField] private float blinkInterval = .35f;
+    private bool isBlinking = false;
+    private Coroutine blinkCoroutine;
 
-
-    [SerializeField] private MainMenuController sceneController;
-
-    // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(RepeatedlyBlinkText());
+        StartBlinking();
     }
 
     private void Update()
     {
-        if(Input.anyKeyDown)
+        if(Input.anyKey)
         {
-            sceneController.ToMainMenu();
+            StopBlinking();
+        }
+    }
+
+    public void StartBlinking()
+    {
+        if (!isBlinking)
+        {
+            isBlinking = true;
+            blinkCoroutine = StartCoroutine(RepeatedlyBlinkText());
+        }
+    }
+
+    public void StopBlinking()
+    {
+        if (isBlinking && blinkCoroutine != null)
+        {
+            StopCoroutine(blinkCoroutine);
+            isBlinking = false;
+            textToBlink.SetActive(false);
+            Destroy(gameObject);
         }
     }
 
     IEnumerator RepeatedlyBlinkText()
     {
-
-        while (true)
+        while (isBlinking)
         {
             textToBlink.SetActive(!textToBlink.activeInHierarchy);
             yield return new WaitForSeconds(blinkInterval);
         }
     }
-
-
-
 }

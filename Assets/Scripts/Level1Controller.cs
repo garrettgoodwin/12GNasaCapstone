@@ -1,45 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 public class Level1Controller : MonoBehaviour
 {
     [SerializeField] private float timeToCompleteLevel;
 
-    [SerializeField] Player player;
+    public UnityEvent OnPlayerCompletedLevel;
 
+    private Coroutine countdownCoroutine;
 
-    void Start()
+    private void Start()
     {
-        if(player != null)
+        if (timeToCompleteLevel > 0)
         {
-            PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
-            
-            if(playerHealth != null)
-            {
-                playerHealth.OnPlayerDeath.AddListener(RestartLevel);
-            }
-            else
-            {
-                Debug.LogWarning("PlayerHealth local variable is not found in the Level1Controller script");
-            }
-        }
-        else
-        {
-            Debug.LogWarning("Player reference is not assigned in the Level1Controller script");
-        }
-
-        if(timeToCompleteLevel > 0)
-        {
-            StartCoroutine(LevelCountdown());
+            countdownCoroutine = StartCoroutine(LevelCountdown());
         }
         else
         {
             Debug.LogWarning("timeToCompleteLevel has not been assigned in the Unity Editor");
         }
     }
-
     IEnumerator LevelCountdown()
     {
         yield return new WaitForSeconds(timeToCompleteLevel);
@@ -48,10 +31,19 @@ public class Level1Controller : MonoBehaviour
 
     void LevelCompleted()
     {
-        Debug.Log("Finished this");
+            OnPlayerCompletedLevel?.Invoke();
     }
 
-    //I dont think that this should go here
+    void StopCoroutineTimer()
+    {
+        if (countdownCoroutine != null)
+        {
+            StopCoroutine(countdownCoroutine);
+        }
+        Debug.Log("Player has died");
+        // Add any additional logic needed when the player dies
+    }
+
     void RestartLevel()
     {
         //SceneManager.LoadScene(SceneManager.GetActiveScene().name);

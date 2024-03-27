@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using static UnityEditor.Progress;
+using EZCameraShake;
 
 public class QuizManager : MonoBehaviour
 {
@@ -180,18 +180,24 @@ public class QuizManager : MonoBehaviour
             coins += 1000;
             // Optionally, update coinText to display the new coin total
             coinText.text = "Coins: " + coins;
-        }
 
-        currentQuestionIndex++;
-        if (currentQuestionIndex < questions.Count)
-        {
-            ShowQuestion();
+            currentQuestionIndex++;
+
+            if (currentQuestionIndex < questions.Count)
+            {
+                ShowQuestion();
+            }
+            else
+            {
+                // Handle quiz completion
+                Debug.Log("Quiz Complete! Total Coins: " + coins);
+                // Optionally, display a message to the player about the quiz completion
+            }
+
         }
         else
         {
-            // Handle quiz completion
-            Debug.Log("Quiz Complete! Total Coins: " + coins);
-            // Optionally, display a message to the player about the quiz completion
+            CameraShaker.Instance.ShakeOnce(4f, 4f, .1f, 1f);
         }
     }
 }

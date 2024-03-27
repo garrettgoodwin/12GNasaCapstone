@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1297654432380671711}
   - component: {fileID: 7192819541177625902}
   - component: {fileID: 8569926537782471403}
-  - component: {fileID: 2930795253711132391}
   - component: {fileID: 6036796837178972892}
   - component: {fileID: 9192349299021235328}
   - component: {fileID: 57647430774055163}
@@ -67,21 +66,6 @@ MonoBehaviour:
   speed: 2
   sprintSpeedMultiplier: 1.5
   playerMovementAnims: {fileID: 474952938224435346}
---- !u!114 &2930795253711132391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 196854890251379668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b10882cc2835884eaa14892668315d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnCoinCountChanged:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &6036796837178972892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100,10 +84,12 @@ MonoBehaviour:
   - {fileID: 2888589584604813283, guid: d72c49347e7f0db4689ad03a27061dc7, type: 3}
   spriteRenderer: {fileID: 0}
   inVulnerabilityDuration: 0
+  healthText: {fileID: 0}
   OnPlayerDeath:
     m_PersistentCalls:
       m_Calls: []
   scoreRef: {fileID: 0}
+  damageEffect: {fileID: 0}
 --- !u!50 &9192349299021235328
 Rigidbody2D:
   serializedVersion: 4

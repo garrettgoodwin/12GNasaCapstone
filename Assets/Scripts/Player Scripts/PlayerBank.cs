@@ -71,6 +71,6 @@ public class PlayerBank : MonoBehaviour
 
     void PrintOutAmount()
     {
-        Debug.Log("Players Bank Amount is currently at: " + totalAmount);
+        //Debug.Log("Players Bank Amount is currently at: " + totalAmount);
     }
 }

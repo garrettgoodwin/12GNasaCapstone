@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6954847488471683519}
   - component: {fileID: 3603682101773361130}
   - component: {fileID: 8429388441313990312}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: AsteroidTest_2_0
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73,9 +73,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -9
+  m_SortingOrder: 0
   m_Sprite: {fileID: -105238074, guid: b5a06b156e064ce4babc8fc32d7b9c27, type: 3}
-  m_Color: {r: 0.25490198, g: 0.25490198, b: 0.25490198, a: 0.11764706}
+  m_Color: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minSpeed: 1
-  maxSpeed: 95
+  maxSpeed: 130
 --- !u!1 &4181002049544341688
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,14 +108,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1192599573453923537}
-  - component: {fileID: 169409907918683287}
+  - component: {fileID: -8101394175512613919}
   - component: {fileID: 5349828930000734091}
   - component: {fileID: 7821676807384599599}
   - component: {fileID: 345694392661588033}
+  - component: {fileID: 3785939352919417190}
   - component: {fileID: 4857966329862015030}
-  m_Layer: 10
-  m_Name: Obstacle 5
-  m_TagString: Untagged
+  m_Layer: 6
+  m_Name: ASteroid
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,16 +131,15 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6531755074232826412}
   - {fileID: 6954847488471683519}
   - {fileID: 6313250416252419840}
-  - {fileID: 6031637050129912140}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &169409907918683287
+--- !u!114 &-8101394175512613919
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -157,8 +157,8 @@ MonoBehaviour:
   lifetime: 10
   selfDestructor: {fileID: 5349828930000734091}
   brokenObjectPrefab: {fileID: 942758415281816035, guid: 7ce40414d65620c45985bc2ff8cd716f, type: 3}
-  parentToBrokenObjects: {fileID: 2134080039446676904}
-  whiteAsteroid: {fileID: 6534357362241813315}
+  parentToBrokenObjects: {fileID: 4181002049544341688}
+  whiteAsteroid: {fileID: 4181002049544341688}
   anim: {fileID: 4857966329862015030}
 --- !u!114 &5349828930000734091
 MonoBehaviour:
@@ -237,6 +237,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &3785939352919417190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4181002049544341688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d59e92ace85ffa446bfcca49d781df3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnables:
+  - {fileID: 1526242044458258110, guid: 6af0e7d616f62774e94c92663ee478fe, type: 3}
+  boundary: {fileID: 7821676807384599599}
+  numberToSpawn: 6
+  parentObject: {fileID: 2134080039446676904}
 --- !u!95 &4857966329862015030
 Animator:
   serializedVersion: 5
@@ -258,37 +275,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!1 &5034707635528323934
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6031637050129912140}
-  m_Layer: 10
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6031637050129912140
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5034707635528323934}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0012252033, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1192599573453923537}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6534357362241813315
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,9 +285,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6313250416252419840}
   - component: {fileID: 6473175956090574054}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: AsteroidTest_2_0 (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -383,7 +369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6531755074232826412}
   - component: {fileID: 3954247102705250319}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: 1_asteroid
   m_TagString: Untagged
   m_Icon: {fileID: 0}

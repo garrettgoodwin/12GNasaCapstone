@@ -13,7 +13,7 @@ public class CinematicBlackBarController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Mouse0) && !hasHiddenBars)
         {
-            HideBlackBars();
+            //HideBlackBars();
             hasHiddenBars = true; // Set the flag to true after hiding bars
             startText.text = "";
         }

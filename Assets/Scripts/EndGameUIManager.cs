@@ -27,10 +27,6 @@ public class EndGameUIManager : MonoBehaviour
 
     public void EnableEndGameScreen()
     {
-
-        Debug.Log("Clicked the button 2");
-
-
         if (!endGammeScreen.activeInHierarchy)
         {
 
@@ -58,8 +54,6 @@ public class EndGameUIManager : MonoBehaviour
 
     public void DisableEndGameScreenLeaderBoard()
     {
-        Debug.Log("Clicked the button");
-
         if (endGammeScreenLeaderBoard.activeInHierarchy)
         {
             endGammeScreenLeaderBoard.SetActive(false);

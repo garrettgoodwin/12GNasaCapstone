@@ -32,7 +32,7 @@ public class MainMenuController : MonoBehaviour
     public void StartEndlessMode()
     {
         //SceneManager.LoadScene("Main");
-        StartCoroutine(StartTransitionToScene("Main"));
+        StartCoroutine(StartTransitionToScene("EndlessMode"));
 
     }
 
@@ -61,4 +61,25 @@ public class MainMenuController : MonoBehaviour
     {
         StartCoroutine(StartTransitionToScene("Main"));
     }
+
+    public void ToQuizScene()
+    {
+        StartCoroutine(StartTransitionToScene("QuizScene"));
+    }
+
+    public void ToLevelOne()
+    {
+        StartCoroutine(StartTransitionToScene("Level1"));
+    }
+
+    public void ToLevelTwo()
+    {
+        StartCoroutine(StartTransitionToScene("Level12"));
+    }
+
+    public void ToLevelThree()
+    {
+        StartCoroutine(StartTransitionToScene("Level3"));
+    }
+
 }

@@ -19,10 +19,7 @@ public class PlayerHealth : MonoBehaviour
 
     [SerializeField] private TMP_Text healthText;
 
-
     public UnityEvent OnPlayerDeath;
-
-
 
     [SerializeField] private ScoreManager scoreRef;
     [SerializeField] private Image damageEffect;
@@ -37,7 +34,6 @@ public class PlayerHealth : MonoBehaviour
 
     public void DecreaseHealth(int amount)
     {
-
         if(!inVulnerable)
         {
             currentHealth -= amount;

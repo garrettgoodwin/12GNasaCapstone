@@ -24,11 +24,18 @@ public class SecondHazard : MonoBehaviour
 
     private Rigidbody2D rb;
 
+
+    public AudioSource audioSource;
+
+    private Camera mainCamera;
+
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        mainCamera = Camera.main; // Assuming there's only one main camera
 
-        int  randNimb = Random.Range(0, 2);
+        int randNimb = Random.Range(0, 2);
         if(randNimb == 0)
         {
             anim.SetBool("CCW", true);
@@ -90,9 +97,23 @@ public class SecondHazard : MonoBehaviour
 
             //Instantiate(brokenObjectPrefab, transform.position, parentToBrokenObjects.transform.rotation);
             //selfDestructor.DestroyOneself();
-
-
         }
+        else
+        {
+            // Check if the object is visible by the main camera
+            if (IsObjectVisible(collision.gameObject))
+            {
+                // Play sound only if the object is visible
+                audioSource.Play();
+            }
+        }
+    }
+
+    bool IsObjectVisible(GameObject obj)
+    {
+        Vector3 screenPoint = mainCamera.WorldToViewportPoint(obj.transform.position);
+        // Check if the screenPoint is within the viewport bounds (x and y between 0 and 1)
+        return screenPoint.x >= 0 && screenPoint.x <= 1 && screenPoint.y >= 0 && screenPoint.y <= 1;
     }
 
     private void DestroySelf()

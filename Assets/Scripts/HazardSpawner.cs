@@ -19,10 +19,23 @@ public class HazardSpawner : MonoBehaviour
 
     public bool isStarSpawner = false;
 
+
+    public bool shouldHaveInitialClick = false;
+
     void Update()
     {
 
-        if(Input.GetKeyDown(KeyCode.Mouse0) | isStarSpawner)
+        if(shouldHaveInitialClick)
+        {
+            Debug.Log("1");
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                Debug.Log("3");
+                StartCoroutine(InitialSpawnTimeDelay(initialSpawnTimeDelayInSec));
+                shouldHaveInitialClick = false;
+            }
+        }
+        else
         {
             StartCoroutine(InitialSpawnTimeDelay(initialSpawnTimeDelayInSec));
         }
@@ -57,6 +70,7 @@ public class HazardSpawner : MonoBehaviour
 
     IEnumerator InitialSpawnTimeDelay(float delay)
     {
+        Debug.Log("4");
         yield return new WaitForSeconds(delay);
         initialSSpawnDelayCompleted = true;
     }

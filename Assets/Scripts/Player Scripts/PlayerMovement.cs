@@ -17,6 +17,8 @@ public class PlayerMovement : MonoBehaviour
 
     private bool hasStartedLeaning;
 
+    [SerializeField] AudioSource thrustersAudioSource;
+
     void Start()
     {
         playerRigidBody = GetComponent<Rigidbody2D>();
@@ -36,12 +38,35 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetKey(KeyCode.LeftShift))
         {
             moveAmount *= sprintSpeedMultiplier;
+            AdjustThrustersSound(true); // Increase thrusters sound
+        }
+        else
+        {
+            AdjustThrustersSound(false); // Reset or decrease thrusters sound
         }
 
         //transform.Translate(moveInput * Time.deltaTime);
 
         HandleAnimation(moveInput);
         HandleMovementLean(moveInput);
+    }
+
+
+    void AdjustThrustersSound(bool isSprinting)
+    {
+        if (isSprinting)
+        {
+            thrustersAudioSource.pitch = Mathf.Lerp(thrustersAudioSource.pitch, 1.5f, Time.deltaTime * 5); // or use a volume increase if preferred
+            thrustersAudioSource.volume = Mathf.Lerp(thrustersAudioSource.volume, .45f, Time.deltaTime * 5); // adjust max volume as needed
+
+        }
+        else
+        {
+            thrustersAudioSource.pitch = Mathf.Lerp(thrustersAudioSource.pitch, 1f, Time.deltaTime * 5); // return to normal pitch
+            thrustersAudioSource.volume = Mathf.Lerp(thrustersAudioSource.volume, .125f, Time.deltaTime * 5); // adjust normal volume as needed
+
+
+        }
     }
 
     void HandleMovementLean(Vector2 moveInput)

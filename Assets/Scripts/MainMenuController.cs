@@ -82,4 +82,9 @@ public class MainMenuController : MonoBehaviour
         StartCoroutine(StartTransitionToScene("Level3"));
     }
 
+    public void ToLevelFour()
+    {
+        StartCoroutine(StartTransitionToScene("Level4"));
+    }
+
 }

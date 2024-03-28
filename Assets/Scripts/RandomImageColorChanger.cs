@@ -20,7 +20,7 @@ public class RandomImageColorChanger : MonoBehaviour
         }
     }
 
-    void ChangeImageColor()
+    public void ChangeImageColor()
     {
         if (colors.Length > 0)
         {

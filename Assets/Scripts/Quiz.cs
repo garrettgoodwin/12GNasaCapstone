@@ -12,13 +12,15 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private TMP_Text coinText;
 
     private List<int> usedQuestions = new List<int>();
-    private List<int> usedOptions = new List<int>();
     private int currentQuestionIndex = 0;
     private int coins = 0;
 
+
+    //Temp
+    [SerializeField] private RandomImageColorChanger tempColorChanger;
+
     // Add your questions, options, and correctAnswers lists here
 
-    // Define the updated questions and their corresponding correct answers
     private List<string> questions = new List<string>
     {
         "What is Psyche?",
@@ -70,6 +72,7 @@ public class QuizManager : MonoBehaviour
         "Who are the Psyche science partners?",
         "Where can you find the full Psyche team list?"
     };
+
 
     private List<List<string>> options = new List<List<string>>
     {
@@ -128,6 +131,8 @@ public class QuizManager : MonoBehaviour
     1, 3, 2, 2, 1, 2, 2, 3, 2, 2, 1, 3, 2, 1, 2, 3, 2, 3, 2, 2, 3, 2, 3, 2, 1, 2, 1, 1, 2, 2, 2, 1, 2, 3, 2, 1, 2, 3, 2, 1, 2, 3, 2, 3, 3, 2, 3, 2, 2, 3, 2
 };
 
+
+
     void Start()
     {
         ShuffleQuestions();
@@ -138,10 +143,10 @@ public class QuizManager : MonoBehaviour
     {
         for (int i = 0; i < questions.Count; i++)
         {
-            int temp = Random.Range(i, questions.Count);
-            Swap(ref questions, i, temp);
-            Swap(ref options, i, temp);
-            Swap(ref correctAnswers, i, temp);
+            //int temp = Random.Range(i, questions.Count);
+            Swap(ref questions, i, currentQuestionIndex);
+            Swap(ref options, i, currentQuestionIndex);
+            Swap(ref correctAnswers, i, currentQuestionIndex);
         }
     }
 
@@ -157,47 +162,56 @@ public class QuizManager : MonoBehaviour
         if (currentQuestionIndex < questions.Count)
         {
             questionText.text = questions[currentQuestionIndex];
+            List<string> currentOptions = options[currentQuestionIndex];
+
             for (int i = 0; i < answerButtons.Length; i++)
             {
-                answerButtons[i].GetComponentInChildren<TMP_Text>().text = options[currentQuestionIndex][i];
-                int currentIndex = currentQuestionIndex;
-                answerButtons[i].onClick.RemoveAllListeners();
-                answerButtons[i].onClick.AddListener(() => CheckAnswer(currentIndex, i));
+                if (i < currentOptions.Count)
+                {
+                    answerButtons[i].gameObject.SetActive(true);
+                    answerButtons[i].GetComponentInChildren<TMP_Text>().text = currentOptions[i];
+                    int optionIndex = i;
+                    answerButtons[i].onClick.RemoveAllListeners();
+                    answerButtons[i].onClick.AddListener(() => CheckAnswer(optionIndex));
+                }
+                else
+                {
+                    answerButtons[i].gameObject.SetActive(false);
+                }
             }
         }
         else
         {
-            // Handle quiz completion
             Debug.Log("Quiz Complete! Total Coins: " + coins);
-            // Optionally, display a message to the player about the quiz completion
+            // Handle quiz completion
         }
     }
 
-    void CheckAnswer(int questionIndex, int selectedOption)
+    void CheckAnswer(int selectedOption)
     {
-        if (selectedOption == correctAnswers[questionIndex])
+        if (selectedOption == correctAnswers[currentQuestionIndex])
         {
-            coins += 1000;
-            // Optionally, update coinText to display the new coin total
-            coinText.text = "Coins: " + coins;
-
+            //coins += 1000;
+            //coinText.text = "Coins: " + coins;
             currentQuestionIndex++;
-
-            if (currentQuestionIndex < questions.Count)
-            {
-                ShowQuestion();
-            }
-            else
-            {
-                // Handle quiz completion
-                Debug.Log("Quiz Complete! Total Coins: " + coins);
-                // Optionally, display a message to the player about the quiz completion
-            }
-
+            ShuffleQuestions();
+            ShowQuestion();
+            tempColorChanger.ChangeImageColor();
         }
         else
         {
             CameraShaker.Instance.ShakeOnce(4f, 4f, .1f, 1f);
         }
+
+        //currentQuestionIndex++;
+        //if (currentQuestionIndex < questions.Count)
+        //{
+        //    ShowQuestion();
+        //}
+        //else
+        //{
+        //    Debug.Log("Quiz Complete! Total Coins: " + coins);
+        //    // Handle quiz completion
+        //}
     }
 }

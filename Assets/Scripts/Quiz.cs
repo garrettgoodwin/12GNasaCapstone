@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using EZCameraShake;
+using UnityEngine.Events;
 
 public class QuizManager : MonoBehaviour
 {
@@ -14,6 +15,9 @@ public class QuizManager : MonoBehaviour
     private List<int> usedQuestions = new List<int>();
     private int currentQuestionIndex = 0;
     private int coins = 0;
+
+    public UnityEvent OnQuestionCorrect;
+    public UnityEvent OnQuestionIncorrect;
 
 
     //Temp
@@ -200,6 +204,7 @@ public class QuizManager : MonoBehaviour
         }
         else
         {
+            OnQuestionIncorrect.Invoke();
             CameraShaker.Instance.ShakeOnce(4f, 4f, .1f, 1f);
         }
 

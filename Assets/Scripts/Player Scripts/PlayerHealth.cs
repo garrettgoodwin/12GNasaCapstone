@@ -68,7 +68,6 @@ public class PlayerHealth : MonoBehaviour
         damageEffect.gameObject.SetActive(true);
         yield return new WaitForSeconds(.15f);
         damageEffect.gameObject.SetActive(false);
-
     }
 
     public void IncreaseHealth(int amount)

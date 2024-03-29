@@ -1,13 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class SkipCutscene : MonoBehaviour
 {
-    public string sceneToLoad = "MainScene"; // Name of the scene to load after skipping
-
-    // Call this method when the skip button is clicked
-    public void SkipToScene()
+    // Start is called before the first frame update
+    void Start()
     {
-        SceneManager.LoadScene(sceneToLoad);
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
 }
+

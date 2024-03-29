@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: a34b37d3351cb2e40bc401987b01cd52
   - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: ec7e68ff9cd14574da6b35513202a690
+  - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -20,9 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Options-old.unity
     guid: 50c1389b651e1af40a71926cd09b1459
-  - enabled: 1
-    path: Assets/Scenes/Tutorial.unity
-    guid: ec7e68ff9cd14574da6b35513202a690
   - enabled: 1
     path: Assets/Scenes/StoryMode.unity
     guid: af969bd20ded2a34cb0af7359c6ba959

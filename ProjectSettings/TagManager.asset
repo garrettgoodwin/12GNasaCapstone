@@ -9,6 +9,7 @@ TagManager:
   - AsteroidCrater
   - Missile
   - Coin
+  - Music
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - Player
   - Bloom
   - BackgroundObjects
-  - 
+  - Music
   - 
   - 
   - 

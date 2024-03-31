@@ -1565,9 +1565,9 @@ GameObject:
   m_Component:
   - component: {fileID: 118438423}
   - component: {fileID: 118438424}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Music
-  m_TagString: Untagged
+  m_TagString: Music
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2534,7 +2534,7 @@ GameObject:
   m_Component:
   - component: {fileID: 203293722}
   - component: {fileID: 203293723}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Two
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5041,7 +5041,7 @@ GameObject:
   m_Component:
   - component: {fileID: 420393341}
   - component: {fileID: 420393342}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: One
   m_TagString: Untagged
   m_Icon: {fileID: 0}

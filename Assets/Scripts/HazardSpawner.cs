@@ -65,7 +65,8 @@ public class HazardSpawner : MonoBehaviour
     {
         Transform randomSpawnpoint = spawnpointTransforms[Random.Range(0, spawnpointTransforms.Length)];
         GameObject randomHazard = hazardPrefabs[Random.Range(0, hazardPrefabs.Length)];
-        Instantiate(randomHazard, randomSpawnpoint.position, Quaternion.identity);
+        GameObject spawnedObject = Instantiate(randomHazard, randomSpawnpoint.position, Quaternion.identity);
+        DontDestroyOnLoad(spawnedObject);
     }
 
     IEnumerator InitialSpawnTimeDelay(float delay)
@@ -81,23 +82,4 @@ public class HazardSpawner : MonoBehaviour
         initialSpawnTime = 999999;
 
     }
-
-    //IEnumerator SlowDownCoroutine()
-    //{
-    //    //float currentSpawnTime = initialSpawnTime;
-    //    //float timeToDecrease = 1f;
-    //    //float elapsedTime = 0f;
-
-    //    //while (elapsedTime < currentSpawnTime)
-    //    //{
-    //    //    elapsedTime += Time.deltaTime;
-    //    //    initialSpawnTime = Mathf.Lerp(currentSpawnTime, 0, elapsedTime / timeToDecrease);
-    //    //    yield return null;
-
-    //    //}
-
-    //    initialSpawnTime = 10000;
-    //}
-
-
 }

@@ -10,7 +10,7 @@ This project seeks to create an engaging online educational game inspired by NAS
 
 
 ### Getting Started🏃‍♀️
-To get started with [Name of the Game], follow these steps:  
+To get started with [Astro Academy](example.com), follow these steps:  
 1. Clone or download the repository.  
 2. Open the project in Unity.  
 3. Navigate to the Assets/Scenes folder and open the Main Menu scene.  

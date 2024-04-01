@@ -1183,8 +1183,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62a2c7c705931594a976aa002d97fff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicOne: {fileID: 420393342}
-  musicTwo: {fileID: 203293723}
+  audioSource: {fileID: 0}
+  musicTracks: []
 --- !u!1 &119171581
 GameObject:
   m_ObjectHideFlags: 0
@@ -1524,6 +1524,7 @@ MonoBehaviour:
   hazardPrefabs:
   - {fileID: 1967149437}
   isStarSpawner: 0
+  shouldHaveInitialClick: 0
 --- !u!4 &136919262
 Transform:
   m_ObjectHideFlags: 0
@@ -6433,6 +6434,7 @@ MonoBehaviour:
   - {fileID: 2134672564800047927, guid: 1e8c1b0450d231040b9da81b09449c3d, type: 3}
   - {fileID: 4880062741924987635, guid: 365bf50ca31447b479dfc5d3ca26c52e, type: 3}
   isStarSpawner: 0
+  shouldHaveInitialClick: 0
 --- !u!4 &656999671
 Transform:
   m_ObjectHideFlags: 0
@@ -8003,6 +8005,7 @@ MonoBehaviour:
   - {fileID: 8666494953306295603, guid: 81e2c2aa5d322e041839557778b34b05, type: 3}
   - {fileID: 5875269668248368629, guid: c7fa7a3590a76724cb065c93afa82232, type: 3}
   isStarSpawner: 0
+  shouldHaveInitialClick: 0
 --- !u!4 &811513609
 Transform:
   m_ObjectHideFlags: 0
@@ -9146,6 +9149,7 @@ MonoBehaviour:
   - {fileID: 4181002049544341688, guid: 55328c5bb7bd200458fb51feea24f6e1, type: 3}
   - {fileID: 4181002049544341688, guid: aab38af9771f3394997aa09823d95a9e, type: 3}
   isStarSpawner: 0
+  shouldHaveInitialClick: 0
 --- !u!4 &915273174
 Transform:
   m_ObjectHideFlags: 0
@@ -17228,6 +17232,7 @@ MonoBehaviour:
   - {fileID: 2948542353905836851, guid: 91c6f0abca4218a479c796d0eff514a9, type: 3}
   - {fileID: 2948542353905836851, guid: 5b75ef88e258d5a479f7b88684a1c0e1, type: 3}
   isStarSpawner: 0
+  shouldHaveInitialClick: 0
 --- !u!4 &1143655675
 Transform:
   m_ObjectHideFlags: 0
@@ -17879,6 +17884,7 @@ MonoBehaviour:
   - {fileID: 2134672564800047927, guid: 1e8c1b0450d231040b9da81b09449c3d, type: 3}
   - {fileID: 4880062741924987635, guid: 365bf50ca31447b479dfc5d3ca26c52e, type: 3}
   isStarSpawner: 0
+  shouldHaveInitialClick: 0
 --- !u!4 &1197280666
 Transform:
   m_ObjectHideFlags: 0
@@ -22200,6 +22206,7 @@ MonoBehaviour:
   hazardPrefabs:
   - {fileID: 4181002049544341688, guid: b0b3ed89ef9f2dc498ab329c5cc8bc4f, type: 3}
   isStarSpawner: 0
+  shouldHaveInitialClick: 0
 --- !u!4 &1754143549
 Transform:
   m_ObjectHideFlags: 0
@@ -22811,6 +22818,7 @@ MonoBehaviour:
   - {fileID: 1526242044458258110, guid: c419ff8f438d48c4aaa237b6d0cfea7d, type: 3}
   - {fileID: 1526242044458258110, guid: 076f9444b81247141b9cad09a26d60d6, type: 3}
   isStarSpawner: 1
+  shouldHaveInitialClick: 0
 --- !u!4 &1825790477
 Transform:
   m_ObjectHideFlags: 0

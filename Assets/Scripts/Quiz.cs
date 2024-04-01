@@ -19,7 +19,7 @@ public class QuizManager : MonoBehaviour
     public UnityEvent OnQuestionCorrect;
     public UnityEvent OnQuestionIncorrect;
 
-
+    public AudioSource correctSound;
     //Temp
     [SerializeField] private RandomImageColorChanger tempColorChanger;
 
@@ -201,6 +201,7 @@ public class QuizManager : MonoBehaviour
             ShuffleQuestions();
             ShowQuestion();
             tempColorChanger.ChangeImageColor();
+            correctSound.Play();
         }
         else
         {

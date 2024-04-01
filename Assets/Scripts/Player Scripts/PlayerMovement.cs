@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using UnityEngine.Events;
+using TMPro;
 using UnityEngine.U2D.Animation;
 
 
@@ -79,20 +81,21 @@ public class PlayerMovement : MonoBehaviour
         transform.rotation = Quaternion.Lerp(transform.rotation, targetRoation, 4f * speedMultiplier * Time.deltaTime);
     }
 
-    private void BoostImmune(float duration)
+    IEnumerator BoostImmune(float duration)
     {
         float timer = 0;
         playerMovementAnims.SetBool("isInvulnerable", true);
-        print(1);
+        
+        float colorFlickerTime = 1f;
         while (timer < duration)
         {
             print(timer);
+            yield return new WaitForSecondsRealtime(colorFlickerTime);
+            timer++;
         }
-        
-        playerMovementAnims.SetBool("isBoosting", false);
-        print(3);
+
         playerMovementAnims.SetBool("isInvulnerable", false);
-        print(4);
+        playerMovementAnims.SetBool("isBoosting", false);
 
     }
 
@@ -100,12 +103,10 @@ public class PlayerMovement : MonoBehaviour
     {
         if(playerMovementAnims.GetBool("hasBoost") && Input.GetKey(KeyCode.Space))
         {
-            //playerMovementAnims.SetBool("isMThrusting", false);
-            //playerMovementAnims.SetBool("isSThrusting", false);
-            //playerMovementAnims.SetBool("isPThrusting", false);
             playerMovementAnims.SetBool("hasBoost", false);
             playerMovementAnims.SetBool("isBoosting", true);
-            BoostImmune(10);
+            StartCoroutine(BoostImmune(10));
+
         }
         else if(moveInput.y < 0)
         {

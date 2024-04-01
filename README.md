@@ -6,7 +6,7 @@ This project seeks to create an engaging online educational game inspired by NAS
 |----|----|----|----|----|----|
 
 ### About the Game🎮
-[Name of Game] is a top-down shooter where the player must face endless waves of increasingly lethal enemies. Survive as long as you can and see how high you can climb on the leaderboard.
+Astro Academy is a top-down shooter where the player must face endless waves of increasingly lethal enemies. Survive as long as you can and see how high you can climb on the leaderboard.
 
 
 ### Getting Started🏃‍♀

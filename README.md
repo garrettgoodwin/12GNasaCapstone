@@ -9,8 +9,8 @@ This project seeks to create an engaging online educational game inspired by NAS
 [Name of Game] is a top-down shooter where the player must face endless waves of increasingly lethal enemies. Survive as long as you can and see how high you can climb on the leaderboard.
 
 
-### Getting Started🏃‍♀️
-To get started with [Astro Academy](example.com), follow these steps:  
+### Getting Started🏃‍♀
+To get started with [Astro Academy](https://goodwingames.itch.io/testwebglbuild), follow these steps:  
 1. Clone or download the repository.  
 2. Open the project in Unity.  
 3. Navigate to the Assets/Scenes folder and open the Main Menu scene.  

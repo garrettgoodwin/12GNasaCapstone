@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.U2D.Animation;
 using TMPro;
 using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
+    [SerializeField] private Animator playerMovementAnims;
+
     [Header("Statistics")]
     [SerializeField] private int maxHealth;
     private int currentHealth;
@@ -15,7 +18,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private float inVulnerabilityDuration;
 
-    private bool inVulnerable;
+    public bool inVulnerable;
 
     [SerializeField] private TMP_Text healthText;
 
@@ -27,17 +30,24 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private ScoreManager scoreRef;
     [SerializeField] private Image damageEffect;
 
+    
+
     private void Start()
     {
+        //initialize Vulnerability
+        playerMovementAnims.SetBool("isInvulnerable", false);
+
         //Initialize Health
         currentHealth = maxHealth;
     }
-
+    
     public void DecreaseHealth(int amount)
     {
 
-        if(!inVulnerable)
+        if(!playerMovementAnims.GetBool("isInvulnerable"))
         {
+            
+
             currentHealth -= amount;
             int randNumb = Random.Range(0, playerHurtSounds.Length);
             Instantiate(playerHurtSounds[randNumb]);
@@ -86,11 +96,13 @@ public class PlayerHealth : MonoBehaviour
 
         //}
     }
+    
+
 
     IEnumerator InvulnerabilityEffect(float invulnerabilityTime)
     {
-        inVulnerable = true;
-
+        playerMovementAnims.SetBool("isInvulnerable", true);
+        print(playerMovementAnims.GetBool("isInvulnerable"));
         float timer = 0;
         float colorFlickerTime = .1f;
 
@@ -98,7 +110,7 @@ public class PlayerHealth : MonoBehaviour
         {
             spriteRenderer.enabled = !spriteRenderer.enabled;
             yield return new WaitForSeconds(colorFlickerTime);
-
+            
             //spriteRenderer.color = Color.red;
             //yield return new WaitForSeconds(colorFlickerTime);
             //spriteRenderer.color = Color.white;
@@ -107,7 +119,8 @@ public class PlayerHealth : MonoBehaviour
         }
 
         spriteRenderer.enabled = true;
-        inVulnerable = false;
+        playerMovementAnims.SetBool("isInvulnerable", false); 
+        
     }
 
 

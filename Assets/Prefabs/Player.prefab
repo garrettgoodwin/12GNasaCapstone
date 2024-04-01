@@ -100,10 +100,12 @@ MonoBehaviour:
   - {fileID: 2888589584604813283, guid: d72c49347e7f0db4689ad03a27061dc7, type: 3}
   spriteRenderer: {fileID: 0}
   inVulnerabilityDuration: 0
+  healthText: {fileID: 0}
   OnPlayerDeath:
     m_PersistentCalls:
       m_Calls: []
   scoreRef: {fileID: 0}
+  damageEffect: {fileID: 0}
 --- !u!50 &9192349299021235328
 Rigidbody2D:
   serializedVersion: 4

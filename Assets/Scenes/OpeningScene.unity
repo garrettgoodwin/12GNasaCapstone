@@ -1096,7 +1096,6 @@ MonoBehaviour:
   musicTracks:
   - {fileID: 8300000, guid: fd94c2f5d22cac642b4342e3b81a9d0e, type: 3}
   - {fileID: 8300000, guid: 1f7017570e02a304c890289610ce52df, type: 3}
-  fadeDuration: 1
 --- !u!4 &402716800
 Transform:
   m_ObjectHideFlags: 0

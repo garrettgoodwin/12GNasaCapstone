@@ -87,4 +87,9 @@ public class MainMenuController : MonoBehaviour
         StartCoroutine(StartTransitionToScene("Level4"));
     }
 
+    public void ToCreditsPage()
+    {
+        StartCoroutine(StartTransitionToScene("Credits"));
+    }
+
 }

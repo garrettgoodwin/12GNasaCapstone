@@ -7276,7 +7276,7 @@ PrefabInstance:
     - target: {fileID: 57647430774055163, guid: 4f0d0007f0d51d149978a00746ff0a8a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 556217563, guid: e1f97cec2209fce4aa320b9855215d75, type: 3}
+      objectReference: {fileID: -207956036, guid: e5f4f659fbf54b048898c2f63161edd7, type: 3}
     - target: {fileID: 57647430774055163, guid: 4f0d0007f0d51d149978a00746ff0a8a, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -7351,7 +7351,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2326557878509051235, guid: 4f0d0007f0d51d149978a00746ff0a8a, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2.0058594
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2326557878509051235, guid: 4f0d0007f0d51d149978a00746ff0a8a, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.size
@@ -7673,6 +7673,18 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 196854890251379668, guid: 4f0d0007f0d51d149978a00746ff0a8a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1601496240}
+    - targetCorrespondingSourceObject: {fileID: 196854890251379668, guid: 4f0d0007f0d51d149978a00746ff0a8a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1601496248}
+    - targetCorrespondingSourceObject: {fileID: 196854890251379668, guid: 4f0d0007f0d51d149978a00746ff0a8a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1601496247}
+    - targetCorrespondingSourceObject: {fileID: 196854890251379668, guid: 4f0d0007f0d51d149978a00746ff0a8a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1601496246}
+    - targetCorrespondingSourceObject: {fileID: 196854890251379668, guid: 4f0d0007f0d51d149978a00746ff0a8a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1601496245}
   m_SourcePrefab: {fileID: 100100000, guid: 4f0d0007f0d51d149978a00746ff0a8a, type: 3}
 --- !u!95 &726276338 stripped
 Animator:
@@ -20950,7 +20962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Library: []
-  m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: bebecf1b73c97ee40be4aee61235c925, type: 3}
+  m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: 6536ccd36166e0747a8358f4631a72f1, type: 3}
 --- !u!114 &1601496240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20967,6 +20979,74 @@ MonoBehaviour:
   m_labelHash: 0.009161512
   m_SpriteKey: 0
   m_SpriteHash: 866593510
+--- !u!114 &1601496245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137875895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94efcc96a985643c6b263c0004210aae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedLevel: 0
+  speedUpgradeCost: 50
+  playerMovementAnims: {fileID: 726276338}
+--- !u!114 &1601496246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137875895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c733bd8b9e9da424f85491496f731abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health_level: 0
+  healthUpgradeCost: 30
+  playerMovementAnims: {fileID: 726276338}
+--- !u!114 &1601496247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137875895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 412129b10c1094d4b81431fe2440a087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shield_level: 0
+  shieldUpgradeCost: 40
+  playerMovementAnims: {fileID: 726276338}
+--- !u!114 &1601496248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137875895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24269aa8b243c4747a893d96faedf457, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteLibrary: {fileID: 1601496239}
+  shipRefs:
+  - {fileID: 7108339969198208228, guid: 6536ccd36166e0747a8358f4631a72f1, type: 3}
+  - {fileID: 7108339969198208228, guid: 6245b20cecb1c8b428d4a0e7d6867ce1, type: 3}
+  - {fileID: 7108339969198208228, guid: e43eab84d02b340469406aa20f373222, type: 3}
+  - {fileID: 7108339969198208228, guid: 26173f8fb61df8b498c7e78b11e37969, type: 3}
+  - {fileID: 7108339969198208228, guid: 28094c814aeb3a5469fc1d977eb6f6a5, type: 3}
+  - {fileID: 7108339969198208228, guid: bebecf1b73c97ee40be4aee61235c925, type: 3}
+  - {fileID: 7108339969198208228, guid: 4e482805d6c40f840a2bd599a4e62e83, type: 3}
+  - {fileID: 7108339969198208228, guid: f3e9856caeccf2046ba170574fad9fc3, type: 3}
+  playerMovementAnims: {fileID: 726276338}
 --- !u!1 &1603173298
 GameObject:
   m_ObjectHideFlags: 0

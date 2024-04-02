@@ -43,10 +43,15 @@ public class PlayerHealth : MonoBehaviour
     
     public void DecreaseHealth(int amount)
     {
-
+        //cannot be immune to damage and shield takes dmg first
         if(!playerMovementAnims.GetBool("isInvulnerable") && !playerMovementAnims.GetBool("shieldUp"))
         {
+            // modifies health
             currentHealth -= amount;
+
+            // ship looses armor when damaged
+            playerMovementAnims.SetBool("isArmored", false);
+
             int randNumb = Random.Range(0, playerHurtSounds.Length);
             Instantiate(playerHurtSounds[randNumb]);
             healthText.text = currentHealth.ToString();
@@ -64,6 +69,7 @@ public class PlayerHealth : MonoBehaviour
                 Die();
             }
         }
+        //cannot be immune to damage and shield takes dmg first
         else if (!playerMovementAnims.GetBool("isInvulnerable") && playerMovementAnims.GetBool("shieldUp"))
         {
             StartCoroutine(shieldHit(59));
@@ -71,6 +77,7 @@ public class PlayerHealth : MonoBehaviour
 
     }
 
+    //when shield takes damage
     IEnumerator shieldHit(float duration)
     {
         float timer = 0;

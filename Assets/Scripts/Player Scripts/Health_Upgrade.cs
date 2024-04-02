@@ -7,6 +7,8 @@ public class Health_Upgrade : MonoBehaviour
     public int health_level;
     public int healthUpgradeCost = 30;
 
+    [SerializeField] private Animator playerMovementAnims;
+
     void Start()
     {
         int totalAmount = PlayerPrefs.GetInt("HealthUpgradeLevel", 0);
@@ -17,6 +19,8 @@ public class Health_Upgrade : MonoBehaviour
         // Increase speed when the TextMeshPro Text is clicked
         int totalAmount = PlayerPrefs.GetInt("HealthUpgradeLevel", 0);
         totalAmount += 1;
+        //updates the "global variable"
+        playerMovementAnims.SetBool("isArmored", true);
         PlayerPrefs.SetInt("HealthUpgradeLevel", totalAmount);
     }
 

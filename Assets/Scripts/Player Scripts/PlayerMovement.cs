@@ -101,6 +101,7 @@ public class PlayerMovement : MonoBehaviour
 
     void HandleAnimation(Vector2 moveInput)
     {
+        //handels boost animation
         if(playerMovementAnims.GetBool("hasBoost") && Input.GetKey(KeyCode.Space))
         {
             playerMovementAnims.SetBool("hasBoost", false);
@@ -108,6 +109,7 @@ public class PlayerMovement : MonoBehaviour
             StartCoroutine(BoostImmune(10));
 
         }
+        //handels port side thrusting animation
         else if(moveInput.y < 0)
         {
             playerMovementAnims.SetBool("isMThrusting", false);
@@ -115,20 +117,23 @@ public class PlayerMovement : MonoBehaviour
             playerMovementAnims.SetBool("isPThrusting", true);
             
         }
-        else if(moveInput.y > 0)
+        //handels starboard side thrusting animation
+        else if (moveInput.y > 0)
         {
             playerMovementAnims.SetBool("isMThrusting", false);
             playerMovementAnims.SetBool("isPThrusting", false);
             playerMovementAnims.SetBool("isSThrusting", true);
             
         }
-        else if(moveInput.x > 0)
+        //handels main/rear thrusters animation
+        else if (moveInput.x > 0)
         {
             playerMovementAnims.SetBool("isSThrusting", false);
             playerMovementAnims.SetBool("isPThrusting", false);
             playerMovementAnims.SetBool("isMThrusting", true);
             
         }
+        //handels idle animation
         else
         {
             playerMovementAnims.SetBool("isSThrusting", false);

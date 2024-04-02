@@ -8,6 +8,7 @@ public class chooseSprite : MonoBehaviour
     public SpriteLibrary spriteLibrary;
     public SpriteLibraryAsset[] shipRefs;
 
+    //the variables in the Animator determine what sprite the player ship is 
     [SerializeField] private Animator playerMovementAnims;
 
 

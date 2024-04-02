@@ -94,7 +94,11 @@ public class PlayerHealth : MonoBehaviour
             yield return new WaitForSecondsRealtime(colorFlickerTime);
             timer++;
         }
-        playerMovementAnims.SetBool("isInvulnerable", false);
+        //if boosting maintain invulneratility
+        if (!playerMovementAnims.GetBool("isBoosting"))
+        {
+            playerMovementAnims.SetBool("isInvulnerable", false);
+        }
 
         //recharging shield timer
         timer = 0;
@@ -157,7 +161,12 @@ public class PlayerHealth : MonoBehaviour
         }
 
         spriteRenderer.enabled = true;
-        playerMovementAnims.SetBool("isInvulnerable", false); 
+
+        //if boosting maintain invulneratility
+        if (!playerMovementAnims.GetBool("isBoosting"))
+        {
+            playerMovementAnims.SetBool("isInvulnerable", false);
+        }
         
     }
 

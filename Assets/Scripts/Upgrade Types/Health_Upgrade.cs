@@ -5,8 +5,9 @@ using UnityEngine;
 public class Health_Upgrade : MonoBehaviour
 {
     // Game health level is stored in the gameManager script
-    public static int health_level = gameManager.health_level;
-
+     public static int health_level = 0;
+     // = gameManager.health_level;
+    public static int currentHealth;
     // Health upgrade cost
     public int healthUpgradeCost = 30;
 

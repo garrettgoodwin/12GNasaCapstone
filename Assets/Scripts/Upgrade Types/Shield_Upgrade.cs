@@ -4,24 +4,19 @@ using UnityEngine;
 
 public class Shield_Upgrade : MonoBehaviour
 {
-    // public static int shield_level = gameManager.shield_level;
-
-    public static int currentShield;
+    public int shield_level;
     public int shieldUpgradeCost = 40;
-    void Start()
-    // Start is called before the first frame updatevoid Start()
-    {
-        currentShield = 10;
-    }
 
-    void Update()
+    void Start()
     {
+        int totalAmount = PlayerPrefs.GetInt("ShieldUpgradeLevel", 0);
     }
 
     public void OnTextClick()
     {
-        // Increase speed when the TextMeshPro Text is clicked
-        currentShield = 20;
+        int totalAmount = PlayerPrefs.GetInt("ShieldUpgradeLevel", 0);
+        totalAmount += 1;
+        PlayerPrefs.SetInt("ShieldUpgradeLevel", totalAmount);
     }
 
     void OnMouseDown()

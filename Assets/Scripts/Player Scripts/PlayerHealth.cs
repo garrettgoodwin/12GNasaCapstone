@@ -64,7 +64,7 @@ public class PlayerHealth : MonoBehaviour
                 Die();
             }
         }
-        else if (playerMovementAnims.GetBool("shieldUp"))
+        else if (!playerMovementAnims.GetBool("isInvulnerable") && playerMovementAnims.GetBool("shieldUp"))
         {
             StartCoroutine(shieldHit(59));
         }

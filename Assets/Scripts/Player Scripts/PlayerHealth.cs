@@ -44,10 +44,8 @@ public class PlayerHealth : MonoBehaviour
     public void DecreaseHealth(int amount)
     {
 
-        if(!playerMovementAnims.GetBool("isInvulnerable"))
+        if(!playerMovementAnims.GetBool("isInvulnerable") && !playerMovementAnims.GetBool("shieldUp"))
         {
-            
-
             currentHealth -= amount;
             int randNumb = Random.Range(0, playerHurtSounds.Length);
             Instantiate(playerHurtSounds[randNumb]);
@@ -66,8 +64,42 @@ public class PlayerHealth : MonoBehaviour
                 Die();
             }
         }
+        else if (playerMovementAnims.GetBool("shieldUp"))
+        {
+            StartCoroutine(shieldHit(59));
+        }
+
     }
 
+    IEnumerator shieldHit(float duration)
+    {
+        float timer = 0;
+        
+        //sets player invulnerable and then recharges
+        playerMovementAnims.SetBool("shieldUp", false);
+        playerMovementAnims.SetBool("isInvulnerable", true);
+        float colorFlickerTime = 1f;
+
+        //invulnerability timer
+        float invTime = 1;
+        while (timer < invTime)
+        {
+            yield return new WaitForSecondsRealtime(colorFlickerTime);
+            timer++;
+        }
+        playerMovementAnims.SetBool("isInvulnerable", false);
+
+        //recharging shield timer
+        timer = 0;
+        while (timer < duration)
+        {
+            yield return new WaitForSecondsRealtime(colorFlickerTime);
+            timer++;
+        }
+        playerMovementAnims.SetBool("shieldUp", true);
+        print("shieldUP");
+
+    }
     private IEnumerator FreezeTime(float timeDuration)
     {
         Time.timeScale = 0f;
@@ -102,7 +134,6 @@ public class PlayerHealth : MonoBehaviour
     IEnumerator InvulnerabilityEffect(float invulnerabilityTime)
     {
         playerMovementAnims.SetBool("isInvulnerable", true);
-        print(playerMovementAnims.GetBool("isInvulnerable"));
         float timer = 0;
         float colorFlickerTime = .1f;
 

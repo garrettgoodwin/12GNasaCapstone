@@ -8,45 +8,49 @@ public class MainMenuController : MonoBehaviour
     [SerializeField] private Animator transition;
     [SerializeField] private float transitionTime;
 
-
-    //Added a new call to caoroutine to play trantion
-
     public void StartStoryMode()
     {
-        //SceneManager.LoadScene("StoryMode");  
         StartCoroutine(StartTransitionToScene("StoryMode"));
     }
 
     public void StartOpeningScene()
     {
-        //SceneManager.LoadScene("OpeningScene");
         StartCoroutine(StartTransitionToScene("OpeningScene"));
     }
 
     public void StartTutorial()
     {
-        //SceneManager.LoadScene("Tutorial");\
         StartCoroutine(StartTransitionToScene("Tutorial"));
     }
 
     public void StartEndlessMode()
     {
-        //SceneManager.LoadScene("Main");
         StartCoroutine(StartTransitionToScene("EndlessMode"));
-
     }
 
     public void OpenOptions()
     {
-        //SceneManager.LoadScene("Options");
         StartCoroutine(StartTransitionToScene("Options"));
+    }
 
+    public void OpenTempOptions()
+    {
+        StartCoroutine(StartTransitionToScene("Options2"));
+    }
+
+    public void OpenUpgradeShop()
+    {
+        StartCoroutine(StartTransitionToScene("StoreScene"));
     }
 
     public void ToMainMenu()
     {
-        //SceneManager.LoadScene("MainMenu");
         StartCoroutine(StartTransitionToScene("MainMenu"));
+    }
+
+    public void ToTempMainMenu()
+    {
+        StartCoroutine(StartTransitionToScene("MainMenu2"));
     }
 
     IEnumerator StartTransitionToScene(string sceneName)
@@ -55,7 +59,6 @@ public class MainMenuController : MonoBehaviour
         yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene(sceneName);
     }
-
 
     public void ToGameScene()
     {
@@ -91,5 +94,4 @@ public class MainMenuController : MonoBehaviour
     {
         StartCoroutine(StartTransitionToScene("Credits"));
     }
-
 }

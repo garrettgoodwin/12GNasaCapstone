@@ -18,7 +18,7 @@ public class TempClickScript : MonoBehaviour
     {
         if(Input.anyKey)
         {
-            mainMenuController.ToMainMenu();
+            mainMenuController.ToTempMainMenu();
         }
     }
 }

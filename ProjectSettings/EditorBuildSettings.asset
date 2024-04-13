@@ -36,9 +36,18 @@ EditorBuildSettings:
     path: Assets/Scenes/StoryMode.unity
     guid: af969bd20ded2a34cb0af7359c6ba959
   - enabled: 1
-    path: Assets/Scenes/Tutorial.unity
-    guid: ec7e68ff9cd14574da6b35513202a690
-  - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: d4db38b5cf6ded5488cf1130e465ba69
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: d45355e947eb85444bd370902edf1708
+  - enabled: 1
+    path: Assets/Scenes/MainMenu2.unity
+    guid: 84bc95cf2d4566d4494eed92d1985091
+  - enabled: 1
+    path: Assets/Scenes/Options2.unity
+    guid: fdbe914d1a0b5314db0c814e65d76368
+  - enabled: 1
+    path: Assets/Scenes/StoreScene.unity
+    guid: 1f2c9943cdaac1949a209a48ca83ddeb
   m_configObjects: {}

@@ -111,9 +111,13 @@ public class SecondHazard : MonoBehaviour
 
     bool IsObjectVisible(GameObject obj)
     {
-        Vector3 screenPoint = mainCamera.WorldToViewportPoint(obj.transform.position);
-        // Check if the screenPoint is within the viewport bounds (x and y between 0 and 1)
-        return screenPoint.x >= 0 && screenPoint.x <= 1 && screenPoint.y >= 0 && screenPoint.y <= 1;
+        if(mainCamera != null)
+        {
+            Vector3 screenPoint = mainCamera.WorldToViewportPoint(obj.transform.position);
+            // Check if the screenPoint is within the viewport bounds (x and y between 0 and 1)
+            return screenPoint.x >= 0 && screenPoint.x <= 1 && screenPoint.y >= 0 && screenPoint.y <= 1;
+        }
+        else { return false; }
     }
 
     private void DestroySelf()

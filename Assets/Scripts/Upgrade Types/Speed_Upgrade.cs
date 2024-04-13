@@ -4,31 +4,23 @@ using UnityEngine;
 
 public class Speed_Upgrade : MonoBehaviour
 {
-    //public int speedUpgradeCost = 50;
-    void Start()
-    // Start is called before the first frame updatevoid Start()
-    {
-        //currentSpeed = speedLevel+10;
-    }
+    public int speedLevel;
+    public int speedUpgradeCost = 50;
 
-    void Update()
+    void Start()
     {
-        // Move the player based on the current speed
-        // float horizontalInput = Input.GetAxis("Horizontal");
-        // float verticalInput = Input.GetAxis("Vertical");
-        // Vector3 movement = new Vector3(horizontalInput, 0f, verticalInput) * currentSpeed * Time.deltaTime;
-        // transform.Translate(movement);
+        int totalAmount = PlayerPrefs.GetInt("SpeeedUpgradeLevel", 0);
     }
 
     public void OnTextClick()
     {
-        // Increase speed when the TextMeshPro Text is clicked
-        //currentSpeed = increasedSpeed;
+        int totalAmount = PlayerPrefs.GetInt("SpeeedUpgradeLevel", 0);
+        totalAmount += 1;
+        PlayerPrefs.SetInt("SpeeedUpgradeLevel", totalAmount);
     }
 
     void OnMouseDown()
     {
         OnTextClick();
     }
-
 }

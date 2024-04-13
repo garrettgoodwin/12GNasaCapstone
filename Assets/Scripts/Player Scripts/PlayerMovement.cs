@@ -14,10 +14,13 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D playerRigidBody;
 
     [SerializeField] private Animator playerMovementAnims;
+    [SerializeField] private ParticleSystem thrustersParticles; // Reference to the Particle System
 
     private bool hasStartedLeaning;
 
     [SerializeField] AudioSource thrustersAudioSource;
+
+    private bool isFacingRight = true; // Track the direction the player is facing
 
     void Start()
     {
@@ -39,11 +42,30 @@ public class PlayerMovement : MonoBehaviour
         {
             moveAmount *= sprintSpeedMultiplier;
             AdjustThrustersSound(true); // Increase thrusters sound
+            if (!thrustersParticles.isPlaying)
+            {
+                thrustersParticles.Play(); // Start emitting particles
+            }
         }
         else
         {
             AdjustThrustersSound(false); // Reset or decrease thrusters sound
+            if (thrustersParticles.isPlaying)
+            {
+                thrustersParticles.Stop(); // Stop emitting particles
+            }
         }
+
+        //if (moveInput.x > 0 && !isFacingRight)
+        //{
+        //    // Player moving right and is currently facing left
+        //    FlipCharacter();
+        //}
+        //else if (moveInput.x < 0 && isFacingRight)
+        //{
+        //    // Player moving left and is currently facing right
+        //    FlipCharacter();
+        //}
 
         //transform.Translate(moveInput * Time.deltaTime);
 
@@ -71,26 +93,25 @@ public class PlayerMovement : MonoBehaviour
 
     void HandleMovementLean(Vector2 moveInput)
     {
-
         float leanZRotation = 0f;
         float speedMultiplier = 1f;
 
-        if(moveInput.y >  0)
+        if (moveInput.y > 0)
         {
-            leanZRotation = -70f;
+            leanZRotation = isFacingRight ? -70f : 250f; // 250f is 360f - 110f, adjusting for full rotation
         }
-        else if(moveInput.y < 0)
+        else if (moveInput.y < 0)
         {
-            leanZRotation = -110f;
+            leanZRotation = isFacingRight ? -110f : 290f; // 290f is 360f - 70f, adjusting for full rotation
         }
         else
         {
-            leanZRotation = -90f;
+            leanZRotation = isFacingRight ? -90f : -90f; // No change needed for neutral position
             speedMultiplier = 2f;
         }
 
-        Quaternion targetRoation = Quaternion.Euler(0, 0, leanZRotation);
-        transform.rotation = Quaternion.Lerp(transform.rotation, targetRoation, 4f * speedMultiplier * Time.deltaTime);
+        Quaternion targetRotation = Quaternion.Euler(0, 0, leanZRotation);
+        transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, 4f * speedMultiplier * Time.deltaTime);
     }
 
 
@@ -133,4 +154,17 @@ public class PlayerMovement : MonoBehaviour
     {
         playerRigidBody.position += moveAmount * Time.fixedDeltaTime;
     }
+
+
+
+    private void FlipCharacter()
+    {
+        isFacingRight = !isFacingRight; // Update the direction the player is facing
+        Vector3 theScale = transform.localScale;
+        theScale.y *= -1; // Flip the y scale
+
+        transform.localScale = theScale;
+    }
+
+
 }

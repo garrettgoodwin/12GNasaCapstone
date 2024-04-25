@@ -2427,7 +2427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4df44228a43473d44a602877b423e809, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToCompleteLevel: 30
+  timeToCompleteLevel: 200
   OnPlayerCompletedLevel:
     m_PersistentCalls:
       m_Calls: []

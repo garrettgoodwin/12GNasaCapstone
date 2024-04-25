@@ -3753,8 +3753,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"Guide your spaceship through asteroid mazes, slipping through slim openings
-    in a high-stakes celestial navigation test."'
+  m_text: 'Ultimate Space Challenge:
+
+    "You''ll test your skills in a dynamic
+    environment that combines asteroid navigation, missile evasion, and tight maneuvering."'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1e6868a0e105ac34ba6458ac247de320, type: 2}
   m_sharedMaterial: {fileID: -7912914803944482700, guid: 1e6868a0e105ac34ba6458ac247de320, type: 2}
@@ -4427,8 +4429,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"Guide your spaceship through asteroid mazes, slipping through slim openings
-    in a high-stakes celestial navigation test."'
+  m_text: "Missile Evasio: \n\"Pilot your spaceship through a space warzone, dodging
+    enemy missiles. Swerve with precision and react quickly to avoid being hit."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1e6868a0e105ac34ba6458ac247de320, type: 2}
   m_sharedMaterial: {fileID: -7912914803944482700, guid: 1e6868a0e105ac34ba6458ac247de320, type: 2}
@@ -5639,8 +5641,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"Guide your spaceship through asteroid mazes, slipping through slim openings
-    in a high-stakes celestial navigation test."'
+  m_text: 'Flappy Asteroid :
+
+    "Maneuver your spaceship through tight passages
+    in densely clustered asteroid fields. "'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1e6868a0e105ac34ba6458ac247de320, type: 2}
   m_sharedMaterial: {fileID: -7912914803944482700, guid: 1e6868a0e105ac34ba6458ac247de320, type: 2}
@@ -9585,8 +9589,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"Guide your spaceship through asteroid mazes, slipping through slim openings
-    in a high-stakes celestial navigation test."'
+  m_text: 'Asteroid Chaos:
+
+    "Guide your spaceship throughoout the asteroid belt
+    slipping through slim openings in a  celestial navigation test."'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1e6868a0e105ac34ba6458ac247de320, type: 2}
   m_sharedMaterial: {fileID: -7912914803944482700, guid: 1e6868a0e105ac34ba6458ac247de320, type: 2}
@@ -11146,8 +11152,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"Guide your spaceship through asteroid mazes, slipping through slim openings
-    in a high-stakes celestial navigation test."'
+  m_text: 'Mission Psyche Quiz:
+
+    "This level is designed to educate as well as
+    entertain, merging space exploration with interactive learning."'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1e6868a0e105ac34ba6458ac247de320, type: 2}
   m_sharedMaterial: {fileID: -7912914803944482700, guid: 1e6868a0e105ac34ba6458ac247de320, type: 2}

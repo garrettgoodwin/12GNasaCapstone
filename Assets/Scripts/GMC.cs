@@ -6,7 +6,7 @@ public class GMC : MonoBehaviour
 {
     [SerializeField] private GameObject[] gameModeObjects; // Assign your game mode GameObjects here
     private int currentGameModeIndex = 0;
-    private float modeChangeInterval = 30f; // Time in seconds to switch between modes
+    [SerializeField] private float modeChangeInterval = 20f; // Time in seconds to switch between modes
     private float modeChangeTimer;
 
     void Start()
